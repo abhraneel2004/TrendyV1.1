@@ -130,7 +130,7 @@ async function loadData() {
               <a href="" class="btn cart-btn">Add to Cart</a>
             </div>
             <div class="d-flex">
-              <div class="price">$${product.price}</div>
+              <div class="price">&#8377;${product.price}</div>
               <div class="rating">
                 <i class="bx bxs-star"></i>
                 <i class="bx bxs-star"></i>
