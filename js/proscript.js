@@ -9,7 +9,7 @@ Chart.defaults.borderColor = "#33202c";
 new Chart(sales, {
   type: "bar",
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "June", "July"],
+    labels: ["Jan", "Fib", "Mar", "Apr", "May", "June", "July"],
     datasets: [
       {
         label: "My Revenue",
