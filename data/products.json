@@ -8,6 +8,13 @@
       "category": " Hoodies"
     },
     {
+      "id": 2,
+      "title": "Tinker Ballet Flats - Nude",
+      "price": "799 ",
+      "url": "./images/footwear/w_shoe_3.png",
+      "category": "Footwear"
+    },
+    {
       "id": 3,
       "title": "Title- Product Name",
       "price": "1000",
