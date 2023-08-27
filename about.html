@@ -16,7 +16,7 @@
     <title>About us</title>
 </head>
 
-<body>
+<body onload="onload()">
     <!-- ====== Header ====== -->
     <header class="header">
         <!-- ====== Navigation ====== -->
@@ -27,9 +27,10 @@
                 </div>
 
                 <div class="nav-list d-flex">
-                <a href="index.html">Home</a>
-                <a href="shop.html">Shop</a>
-                <a href="about.html">About Us</a>
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About Us</a>
+                    <a href="profile.html" id="prof">Profile</a>
                     <div class="close">
                         <i class="bx bx-x"></i>
                     </div>
@@ -37,14 +38,11 @@
                 </div>
 
                 <div class="icons d-flex">
-                    <div class="icon d-flex"><i class="bx bx-search"></i></div>
+
                     <div class="icon user-icon d-flex">
-                        <i class="bx bx-user"></i>
+                        <i class="bx bx-user" id="mukh"></i>
                     </div>
-                    <div class="icon d-flex">
-                        <i class="bx bx-bell"></i>
-                        <span></span>
-                    </div>
+
                 </div>
 
                 <!-- Hamburger -->
@@ -54,7 +52,9 @@
             </div>
         </nav>
 
+
     </header>
+    
     <section class="aboutcont">
         <section class="desc">
 
@@ -72,26 +72,26 @@
 
         <section class="models">
             <div class="container3">
-                <div class="models" id = "m1">
+                <div class="models" id="m1">
                     <img src="images/model1.png" alt="">
                 </div>
             </div>
             <div class="container3">
-                <div class="models" id = "m2">
+                <div class="models" id="m2">
                     <img src="images/model2.png" alt="">
                 </div>
             </div>
             <div class="container3">
-                <div class="models" id = "m3">
+                <div class="models" id="m3">
                     <img src="images/model3.png" alt="">
                 </div>
             </div>
             <div class="container3">
-                <div class="models" id = "m4">
+                <div class="models" id="m4">
                     <img src="images/model4.png" alt="">
                 </div>
             </div>
-            
+
         </section>
 
         <section class="team">
@@ -99,7 +99,7 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m1">
+                <div class="team-mem" id="m1">
                     Abhraneel
                 </div>
             </div>
@@ -107,7 +107,7 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m2">
+                <div class="team-mem" id="m2">
                     Sayantan
                 </div>
             </div>
@@ -115,7 +115,7 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m3">
+                <div class="team-mem" id="m3">
                     Anannya
                 </div>
             </div>
@@ -123,18 +123,19 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m4">
+                <div class="team-mem" id="m4">
                     Ayandip
                 </div>
             </div>
-            
+
         </section>
-        
+
     </section>
 
 
 
 
+    <!-- ====== Footer ====== -->
     <!-- ====== Footer ====== -->
     <footer class="footer">
         <div class="row container">
@@ -143,8 +144,8 @@
                     <!--img src="./images/logo.svg" alt="logo" /-->
                 </div>
                 <p>
-                    Lorem ispum is a placeholder text <br />
-                    commonly used as a free text.
+                    This is a sample project for Hackathon <br />
+                    No copyright strikes intended.
                 </p>
                 <div class="icons d-flex">
                     <div class="icon d-flex">
@@ -203,6 +204,112 @@
         </div>
     </footer>
 
+    <!-- ====== Login and Signup Form ====== -->
+    <!-- ========= Login Form ============= -->
+    <div class="user-form">
+        <div class="close-form d-flex"><i class="bx bx-x"></i></div>
+        <div class="form-wrapper container">
+            <div class="user login">
+                <div class="img-box">
+                    <img src="./images/trial.svg" alt="" />
+                </div>
+                <div class="form-box">
+                    <div class="top">
+                        <p>
+                            Not a member?
+                            <span data-id="#ff0066">Register now</span>
+                        </p>
+                    </div>
+                    <form action="">
+                        <div class="form-control">
+                            <h2>Hey There!</h2>
+                            <p>Login to become Trendy</p>
+                            <input type="text" placeholder="Enter email" id="log-mail" />
+                            <div>
+                                <input type="password" placeholder="Password" id="log-pwd" />
+                                <div class="icon form-icon">
+                                    <!-- <img src="./images/eye.svg" alt="" /> -->
+                                </div>
+                            </div>
+                            <span>Recovery Password</span>
+                            <button type="button" id="login" name="login" class="btn btn-success">Login</button>
+                        </div>
+                        <div class="form-control">
+                            <p>Or continue with</p>
+                            <div class="icons">
+                                <div class="icon">
+                                    <img src="./images/search.svg" alt="" />
+                                </div>
+                                <div class="icon">
+                                    <img src="./images/facebook.svg" alt="" />
+                                </div>
+                                <div class="icon">
+                                    <img src="./images/github.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Register -->
+            <div class="user signup">
+                <div class="form-box">
+                    <div class="top">
+                        <p>
+                            Already a member?
+                            <span data-id="#1a1aff">Login now</span>
+                        </p>
+                    </div>
+                    <form action="">
+                        <div class="form-control">
+                            <h2>Welcome to HalfByte Trendy!</h2>
+                            <p>Nice to meet you</p>
+                            <input type="email" placeholder="Enter Email" id="s7" />
+                            <div>
+                                <input type="password" placeholder="Password" id="s8" />
+                                <div class="icon form-icon">
+                                    <img src="./images/eye.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <input type="password" placeholder="Confirm Password" id="s9" />
+                                <div class="icon form-icon">
+                                    <img src="./images/eye.svg" alt="" />
+                                </div>
+                            </div>
+                            <!-- <input type="Submit" value="Register" id="s10" /> -->
+                            <button type="button" id="register" name="register" class="btn btn-success">Register
+                                Now</button>
+                        </div>
+                        <div class="form-control">
+                            <p>Or continue with</p>
+                            <div class="icons">
+                                <div class="icon">
+                                    <img src="./images/search.svg" alt="" />
+                                </div>
+                                <div class="icon">
+                                    <img src="./images/apple.svg" alt="" />
+                                </div>
+                                <div class="icon">
+                                    <img src="./images/facebook.svg" alt="" />
+                                </div>
+                                <div class="icon">
+                                    <img src="./images/github.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="img-box">
+                    <img src="./images/trial.svg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+<script src="./js/main.js"></script>
+<script src="./js/mini.js"></script>
 
 </html>

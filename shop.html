@@ -16,7 +16,7 @@
     <title>Shop Page</title>
 </head>
 
-<body>
+<body onload="onload()">
     <header class="header">
         <!-- ====== Navigation ====== -->
         <nav class="navbar">
@@ -29,6 +29,8 @@
                     <a href="index.html">Home</a>
                     <a href="shop.html">Shop</a>
                     <a href="about.html">About Us</a>
+                    <a href="profile.html" id="prof">Profile</a>
+                    
                     <div class="close">
                         <i class="bx bx-x"></i>
                     </div>
@@ -36,14 +38,11 @@
                 </div>
 
                 <div class="icons d-flex">
-                    <div class="icon d-flex"><i class="bx bx-search"></i></div>
+
                     <div class="icon user-icon d-flex">
-                        <i class="bx bx-user"></i>
+                        <i class="bx bx-user" id="mukh"></i>
                     </div>
-                    <div class="icon d-flex">
-                        <i class="bx bx-bell"></i>
-                        <span></span>
-                    </div>
+
                 </div>
 
                 <!-- Hamburger -->
@@ -52,6 +51,8 @@
                 </div>
             </div>
         </nav>
+
+
     </header>
 
     <!-- ====== Categories ====== -->
@@ -969,73 +970,176 @@
 
 
     <!-- ====== Footer ====== -->
-    <footer class="footer">
-        <div class="row container">
-            <div class="col">
-                <div class="logo d-flex">
-                    <!--img src="./images/logo.svg" alt="logo" /-->
-                </div>
-                <p>
-                    Lorem ispum is a placeholder text <br />
-                    commonly used as a free text.
-                </p>
-                <div class="icons d-flex">
-                    <div class="icon d-flex">
-                        <i class="bx bxl-facebook"></i>
-                    </div>
-                    <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
-                    <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
-                    <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
-                </div>
-                <p class="color">
-                    Copyrights 2023 <br />
-                </p>
-            </div>
-            <div class="col">
-                <div>
-                    <h4>Product</h4>
-                    <a href="">Download</a>
-                    <a href="">Pricing</a>
-                    <a href="">Locations</a>
-                    <a href="">Server</a>
-                    <a href="">Countries</a>
-                    <a href="">Blog</a>
-                </div>
-                <div>
-                    <h4>Category</h4>
-                    <a href="">Men</a>
-                    <a href="">Women</a>
-                    <a href="">Kids</a>
-                    <a href="">Best Seller</a>
-                    <a href="">New Arrivals</a>
-                </div>
-                <div>
-                    <h4>My Account</h4>
-                    <a href="">My Account</a>
-                    <a href="">Discount</a>
-                    <a href="">Returns</a>
-                    <a href="">Order History</a>
-                    <a href="">Order Tracking</a>
-                </div>
-                <div>
-                    <h4>Contact Us</h4>
-                    <div class="d-flex">
-                        <div class="icon"><i class="bx bxs-map"></i></div>
-                        <span>Adisaptagram</span>
-                    </div>
-                    <div class="d-flex">
-                        <div class="icon"><i class="bx bxs-envelope"></i></div>
-                        <span>halfbyte.com</span>
-                    </div>
-                    <div class="d-flex">
-                        <div class="icon"><i class="bx bxs-phone"></i></div>
-                        <span>+1234567890</span>
-                    </div>
-                </div>
-            </div>
+    <!-- ====== Footer ====== -->
+  <footer class="footer">
+    <div class="row container">
+      <div class="col">
+        <div class="logo d-flex">
+          <!--img src="./images/logo.svg" alt="logo" /-->
         </div>
-    </footer>
+        <p>
+          This is a sample project for Hackathon <br />
+          No copyright strikes intended.
+        </p>
+        <div class="icons d-flex">
+          <div class="icon d-flex">
+            <i class="bx bxl-facebook"></i>
+          </div>
+          <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+          <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+          <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
+        </div>
+        <p class="color">
+          Copyrights 2023 <br />
+        </p>
+      </div>
+      <div class="col">
+        <div>
+          <h4>Product</h4>
+          <a href="">Download</a>
+          <a href="">Pricing</a>
+          <a href="">Locations</a>
+          <a href="">Server</a>
+          <a href="">Countries</a>
+          <a href="">Blog</a>
+        </div>
+        <div>
+          <h4>Category</h4>
+          <a href="">Men</a>
+          <a href="">Women</a>
+          <a href="">Kids</a>
+          <a href="">Best Seller</a>
+          <a href="">New Arrivals</a>
+        </div>
+        <div>
+          <h4>My Account</h4>
+          <a href="">My Account</a>
+          <a href="">Discount</a>
+          <a href="">Returns</a>
+          <a href="">Order History</a>
+          <a href="">Order Tracking</a>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <div class="d-flex">
+            <div class="icon"><i class="bx bxs-map"></i></div>
+            <span>Adisaptagram</span>
+          </div>
+          <div class="d-flex">
+            <div class="icon"><i class="bx bxs-envelope"></i></div>
+            <span>halfbyte.com</span>
+          </div>
+          <div class="d-flex">
+            <div class="icon"><i class="bx bxs-phone"></i></div>
+            <span>+1234567890</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
+  <!-- ====== Login and Signup Form ====== -->
+  <!-- ========= Login Form ============= -->
+  <div class="user-form">
+    <div class="close-form d-flex"><i class="bx bx-x"></i></div>
+    <div class="form-wrapper container">
+      <div class="user login">
+        <div class="img-box">
+          <img src="./images/trial.svg" alt="" />
+        </div>
+        <div class="form-box">
+          <div class="top">
+            <p>
+              Not a member?
+              <span data-id="#ff0066">Register now</span>
+            </p>
+          </div>
+          <form action="">
+            <div class="form-control">
+              <h2>Hey There!</h2>
+              <p>Login to become Trendy</p>
+              <input type="text" placeholder="Enter email" id="log-mail" />
+              <div>
+                <input type="password" placeholder="Password" id="log-pwd" />
+                <div class="icon form-icon">
+                  <!-- <img src="./images/eye.svg" alt="" /> -->
+                </div>
+              </div>
+              <span>Recovery Password</span>
+              <button type="button" id="login" name="login" class="btn btn-success">Login</button>
+            </div>
+            <div class="form-control">
+              <p>Or continue with</p>
+              <div class="icons">
+                <div class="icon">
+                  <img src="./images/search.svg" alt="" />
+                </div>
+                <div class="icon">
+                  <img src="./images/facebook.svg" alt="" />
+                </div>
+                <div class="icon">
+                  <img src="./images/github.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Register -->
+      <div class="user signup">
+        <div class="form-box">
+          <div class="top">
+            <p>
+              Already a member?
+              <span data-id="#1a1aff">Login now</span>
+            </p>
+          </div>
+          <form action="">
+            <div class="form-control">
+              <h2>Welcome to HalfByte Trendy!</h2>
+              <p>Nice to meet you</p>
+              <input type="email" placeholder="Enter Email" id="s7" />
+              <div>
+                <input type="password" placeholder="Password" id="s8" />
+                <div class="icon form-icon">
+                  <img src="./images/eye.svg" alt="" />
+                </div>
+              </div>
+              <div>
+                <input type="password" placeholder="Confirm Password" id="s9" />
+                <div class="icon form-icon">
+                  <img src="./images/eye.svg" alt="" />
+                </div>
+              </div>
+              <!-- <input type="Submit" value="Register" id="s10" /> -->
+              <button type="button" id="register" name="register" class="btn btn-success">Register Now</button>
+            </div>
+            <div class="form-control">
+              <p>Or continue with</p>
+              <div class="icons">
+                <div class="icon">
+                  <img src="./images/search.svg" alt="" />
+                </div>
+                <div class="icon">
+                  <img src="./images/apple.svg" alt="" />
+                </div>
+                <div class="icon">
+                  <img src="./images/facebook.svg" alt="" />
+                </div>
+                <div class="icon">
+                  <img src="./images/github.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="img-box">
+          <img src="./images/trial.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- ====== Login and Signup Form ====== -->
 
     <!-- ====== SwiperJs ====== -->
@@ -1044,6 +1148,95 @@
     <!-- ====== Custom Script ====== -->
     <script src="./js/product.js"></script>
     <script src="./js/main.js"></script>
+    <script src ="./js/mini.js"></script>
 </body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyC5t0DkSBIPyNiCqYbz7MjN4kGYVnNU_yQ",
+      authDomain: "trendy-test1.firebaseapp.com",
+      databaseURL: "https://trendy-test1-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "trendy-test1",
+      storageBucket: "trendy-test1.appspot.com",
+      messagingSenderId: "392299501459",
+      appId: "1:392299501459:web:aa8640f774a88fe8a67a66",
+      measurementId: "G-ZR570Y75EQ"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth();
+    console.log(app);
+  
+    // //----- New Registration code start	  
+    // document.getElementById("register").addEventListener("click", function () {
+    //   var email = document.getElementById("s7").value;
+    //   var password = document.getElementById("s8").value;
+    //   // console.log("Hello world!");
+    //   localStorage.setItem("email", email);
+    //   localStorage.setItem("password", password);
+  
+  
+    //   //For new registration
+    //   createUserWithEmailAndPassword(auth, email, password)
+    //     .then((userCredential) => {
+  
+  
+  
+  
+    //       // Signed in 
+    //       const user = userCredential.user;
+    //       localStorage.setItem("uid", user.uid);
+    //       alert("Registration successful!!");
+  
+    //       window.location.href = "index.html";
+  
+    //       // ...
+  
+  
+    //     })
+    //     .catch((error) => {
+    //       const errorCode = error.code;
+    //       const errorMessage = error.message;
+    //       // ..
+    //       console.log(errorMessage);
+    //       alert(error);
+    //     });
+    // });
+  
+    // document.getElementById("login").addEventListener("click", function () {
+    //   var email = document.getElementById("log-mail").value;
+    //   console.log(email);
+    //   var password = document.getElementById("log-pwd").value;
+  
+    //   signInWithEmailAndPassword(auth, email, password)
+    //     .then((userCredential) => {
+    //       // Signed in 
+    //       localStorage.setItem("uid", userCredential.uid)
+    //       window.location.href = "index.html";
+    //       const user = userCredential.user;
+    //       console.log(user);
+    //       alert(user.email + " Login successfully!!!");
+    //       // ...
+    //     })
+    //     .catch((error) => {
+    //       const errorCode = error.code;
+    //       const errorMessage = error.message;
+    //       console.log(errorMessage);
+    //       alert(errorMessage);
+    //     });
+    // });
+  
+  </script>
 
 </html>

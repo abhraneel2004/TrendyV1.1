@@ -196,7 +196,7 @@
     </div>
   </section>
 
-  <!-- ====== Statistics ====== -->
+  ====== Statistics ======
   <section class="section statistics">
     <div class="title">
       <span>Testimony</span>
@@ -504,19 +504,6 @@
       });
   });
 
-  document.getElementById("log-out").addEventListener("click", function () {
-    signOut(auth).then(() => {
-      // Sign-out successful.
-      console.log('Sign-out successful.');
-      localStorage.clear();
-      alert('Sign-out successful.');
-      window.location.href = "index.html";
-      // document.getElementById('logout').style.display = 'none';
-    }).catch((error) => {
-      // An error happened.
-      console.log('An error happened.');
-    });
-  });
 </script>
 
 

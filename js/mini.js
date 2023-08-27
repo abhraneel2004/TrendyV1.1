@@ -1,13 +1,17 @@
-
+console.log("hello world");
 const onload = (e => {
+    console.log("hello world 2");
     var uid = localStorage.getItem("uid");
     var div = document.getElementById("prof");
     var div2 = document.getElementById("mukh");
     if (uid == null) {
-        div.style.display = "none";
-        div2.style.display = "block";
+        console.log("no uid");
+        div.style.opacity = 0;
+        div2.style.opacity = 1;
     } else {
-        div.style.display = 'block';
-        div2.style.display = 'none';
+        console.log("uid here");
+        console.log(uid);
+        div.style.opacity = 1;
+        div2.style.opacity = 0;
     }
 });
