@@ -34,7 +34,7 @@ const ProductsWrapper = document.getElementById('products');
 
 window.addEventListener('DOMContentLoaded', async function () {
   let products = await getProducts();
-  products = products.filter((product) => product.category === 'Dresses');
+  products = products.filter((product) => product.category === ' Hoodies');
   displayProductItems(products);
   loadData();
 });
