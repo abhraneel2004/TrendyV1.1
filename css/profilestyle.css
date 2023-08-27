@@ -366,10 +366,14 @@ html {
   margin: 0 auto;
   background: linear-gradient(to right bottom, #ff7207, #f73c17);
   padding: 2rem 0;
-  color: #2f1a27;
+  color: #fff;
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+.btn:hover{
+  background: linear-gradient(to right bottom, #f77d1f, #ff4d29);
 }
 
 /* End Profile */

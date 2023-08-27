@@ -62,7 +62,7 @@ new Chart(products, {
     datasets: [
       {
         label: "You Spent",
-        data: [380, 200, 500,1000],
+        data: [380, 200, 500, 1000],
         backgroundColor: [
           "#0079ff",
           "#00dfa2",
@@ -77,3 +77,5 @@ new Chart(products, {
     responsive: true,
   },
 });
+
+
