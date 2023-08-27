@@ -1,5 +1,7 @@
 # TrendyV1.1
 
+Website Deployment: https://abhraneel2004.github.io/TrendyV1.1/
+
 # Trendy
 
 Trendy is an online shopping website that offers a variety of products, including clothing, accessories, beauty products, and home goods. Their mission is to provide high-quality products that are both sustainable and affordable. Trendy works with various brands to offer their customers a wide range of options, and they are committed to transparency in their sourcing and production practices. In addition to its online store, Etry also offers a magazine and blog with content related to fashion, lifestyle, and sustainability.
