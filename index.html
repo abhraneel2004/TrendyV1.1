@@ -16,8 +16,8 @@
   <title>Trendy</title>
 </head>
 
-<body>
-  <script src="./js/mini.js"></script>
+<body onload="onload()">
+
   <!-- ====== Header ====== -->
   <header class="header">
     <!-- ====== Navigation ====== -->
@@ -31,6 +31,7 @@
           <a href="index.html">Home</a>
           <a href="shop.html">Shop</a>
           <a href="about.html">About Us</a>
+          <a href="profile.html" id="prof">Profile</a>
           <div class="close">
             <i class="bx bx-x"></i>
           </div>
@@ -38,14 +39,11 @@
         </div>
 
         <div class="icons d-flex">
-          <div class="icon d-flex"><i class="bx bx-search"></i></div>
+
           <div class="icon user-icon d-flex">
-            <i class="bx bx-user"></i>
+            <i class="bx bx-user" id="mukh"></i>
           </div>
-          <div class="icon d-flex">
-            <i class="bx bx-bell"></i>
-            <span></span>
-          </div>
+
         </div>
 
         <!-- Hamburger -->
@@ -148,43 +146,54 @@
         </div>
       </div>
     </section-->
-
-  <!-- ====== Categories ====== -->
-  <section class="section categories">
+  <!-- ====== Blogs ====== -->
+  <section class="section blog">
     <div class="title">
-      <span>CATEGORIES</span>
-      <h2>2023 Trendy Collection</h2>
+      <span>WHAT'S TRENDY</span>
+      <h2>Latest News</h2>
     </div>
 
-    <div class="products container">
-      <!-- <div class="product">
-          <div class="top d-flex">
-            <img src="./images/product-1.png" alt="" />
-            <div class="icon d-flex">
-              <i class="bx bxs-heart"></i>
-            </div>
-          </div>
-          <div class="bottom">
-            <div class="d-flex">
-              <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
-              <a href="" class="btn cart-btn">Add to Cart</a>
-            </div>
-            <div class="d-flex">
-              <div class="price">$150</div>
-              <div class="rating">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-              </div>
-            </div>
-          </div>
-        </div> -->
-    </div>
-
-    <div class="button d-flex">
-      <a class="btn loadmore">Load More</a>
+    <div class="row container">
+      <div class="col">
+        <div class="top">
+          <img src="./images/adidas_news.png" alt="" />
+        </div>
+        <div class="bottom">
+          <h3>ADIDAS AND ARSENAL REIMAGINE A CULT CLASSIC</h3>
+          <h4>
+            Today, adidas and Arsenal unveil the new third kit for the 2023/24 season, celebrating a retro style from
+            the 1980’s.
+          </h4>
+          <span>27 August 2023</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="top">
+          <img src="./images/shoe_news.png" alt="" />
+        </div>
+        <div class="bottom">
+          <h3>Clarks and Eastpak announce collaboration
+          </h3>
+          <h4>
+            Eastpak and Clarks, two fashion companies renowned in their respective domains, have joined forces to create
+            a fusion of iconic backpack design and British footwear expertise.
+          </h4>
+          <span>15 March 2023</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="top">
+          <img src="./images/third_news.png" alt="" />
+        </div>
+        <div class="bottom">
+          <h3>"Resistance Is in Our Blood”: 5 Ukrainian Designers Reflect on Their New Reality</h3>
+          <h4>
+            “Inside we are all stronger than before,” says Yana Olenich, founder of the eponymous womenswear label
+            Olenich. “Unity and resistance is in our blood.”
+          </h4>
+          <span>14 February 2023</span>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -229,53 +238,7 @@
     </div>
   </section>
 
-  <!-- ====== Blogs ====== -->
-  <section class="section blog">
-    <div class="title">
-      <span>WHAT'S TRENDY</span>
-      <h2>Latest News</h2>
-    </div>
 
-    <div class="row container">
-      <div class="col">
-        <div class="top">
-          <img src="./images/adidas_news.png" alt="" />
-        </div>
-        <div class="bottom">
-          <h3>ADIDAS AND ARSENAL REIMAGINE A CULT CLASSIC</h3>
-          <h4>
-            Today, adidas and Arsenal unveil the new third kit for the 2023/24 season, celebrating a retro style from the 1980’s.
-          </h4>
-          <span>27 August 2023</span>
-        </div>
-      </div>
-      <div class="col">
-        <div class="top">
-          <img src="./images/shoe_news.png" alt="" />
-        </div>
-        <div class="bottom">
-          <h3>Clarks and Eastpak announce collaboration
-          </h3>
-          <h4>
-            Eastpak and Clarks, two fashion companies renowned in their respective domains, have joined forces to create a fusion of iconic backpack design and British footwear expertise. 
-          </h4>
-          <span>15 March 2023</span>
-        </div>
-      </div>
-      <div class="col">
-        <div class="top">
-          <img src="./images/third_news.png" alt="" />
-        </div>
-        <div class="bottom">
-          <h3>"Resistance Is in Our Blood”: 5 Ukrainian Designers Reflect on Their New Reality</h3>
-          <h4>
-            “Inside we are all stronger than before,” says Yana Olenich, founder of the eponymous womenswear label Olenich. “Unity and resistance is in our blood.”
-          </h4>
-          <span>14 February 2023</span>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ====== Footer ====== -->
   <footer class="footer">
@@ -364,10 +327,10 @@
           <form action="">
             <div class="form-control">
               <h2>Hey There!</h2>
-              <p>Login to becomes Trendy</p>
-              <input type="text" placeholder="Enter email" id = "log-mail"/>
+              <p>Login to become Trendy</p>
+              <input type="text" placeholder="Enter email" id="log-mail" />
               <div>
-                <input type="password" placeholder="Password" id = "log-pwd"/>
+                <input type="password" placeholder="Password" id="log-pwd" />
                 <div class="icon form-icon">
                   <!-- <img src="./images/eye.svg" alt="" /> -->
                 </div>
@@ -453,7 +416,109 @@
   <!-- ====== Custom Script ====== -->
   <script src="./js/product.js"></script>
   <script src="./js/main.js"></script>
+  <script src="./js/mini.js"></script>
 </body>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC5t0DkSBIPyNiCqYbz7MjN4kGYVnNU_yQ",
+    authDomain: "trendy-test1.firebaseapp.com",
+    databaseURL: "https://trendy-test1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "trendy-test1",
+    storageBucket: "trendy-test1.appspot.com",
+    messagingSenderId: "392299501459",
+    appId: "1:392299501459:web:aa8640f774a88fe8a67a66",
+    measurementId: "G-ZR570Y75EQ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const auth = getAuth();
+  console.log(app);
+
+  //----- New Registration code start	  
+  document.getElementById("register").addEventListener("click", function () {
+    var email = document.getElementById("s7").value;
+    var password = document.getElementById("s8").value;
+    // console.log("Hello world!");
+    localStorage.setItem("email", email);
+    localStorage.setItem("password", password);
+
+
+    //For new registration
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+
+
+
+
+        // Signed in 
+        const user = userCredential.user;
+        localStorage.setItem("uid", user.uid);
+        alert("Registration successful!!");
+
+        window.location.href = "index.html";
+
+        // ...
+
+
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        // ..
+        console.log(errorMessage);
+        alert(error);
+      });
+  });
+
+  document.getElementById("login").addEventListener("click", function () {
+    var email = document.getElementById("log-mail").value;
+    console.log(email);
+    var password = document.getElementById("log-pwd").value;
+
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Signed in 
+        localStorage.setItem("uid", userCredential.uid)
+        window.location.href = "index.html";
+        const user = userCredential.user;
+        console.log(user);
+        alert(user.email + " Login successfully!!!");
+        // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorMessage);
+        alert(errorMessage);
+      });
+  });
+
+  document.getElementById("log-out").addEventListener("click", function () {
+    signOut(auth).then(() => {
+      // Sign-out successful.
+      console.log('Sign-out successful.');
+      localStorage.clear();
+      alert('Sign-out successful.');
+      window.location.href = "index.html";
+      // document.getElementById('logout').style.display = 'none';
+    }).catch((error) => {
+      // An error happened.
+      console.log('An error happened.');
+    });
+  });
+</script>
 
 
 </html>
