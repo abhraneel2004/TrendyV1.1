@@ -1,0 +1,39 @@
+4_tshirt                      649
+5_tshirt                      649
+6_nike                        749
+2_tshirt                      649
+3-tshirt                     1049
+7_tshirt                     1099
+8tshirt png                  1375
+anime1                       1199
+(tshirt pricing done)
+-----------------------------------
+2_jordan_hoodie              2049
+1_hodie adidas               2499
+3_Nike_hoodie                2399
+Nike Hoodie                  1899
+product-1                    3199
+5_nike_hoodie                2999
+6_nike_hoodie                2199
+7_jordan_hoodie              2399
+8_puma_hoodie                2599
+10_fila_hoodie               2799
+jacket-1                     2499
+----------------------------------
+red jordan                 15,574
+blue_nike                    5531
+adidasshoe3                  5519
+air_max5                     4699
+shoe1-> jordan4            15,799
+stiletto                    2699
+w-shoe3                      799
+-----------------------------------
+jewelery1                  30,999
+jewelery2                     495
+jewelery3                   3,999
+jewelery4                     299
+jewelery5                   1,125
+jewelery6                   2,709
+delete jhumka and bangle from sayantan
+jewelery8                1,20,499           
+----------------------------------

@@ -1,0 +1,158 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "ADIDAS Premium - Yellow Jacket",
+      "price": "3000",
+      "url": "./images/hoodies/jacket1.png",
+      "category": " Hoodies"
+    },
+    {
+      "id": 3,
+      "title": "Title- Product Name",
+      "price": "1000",
+      "url": "./images/hoodies/product-1.png",
+      "category": " Hoodies"
+    },
+    {
+      "id": 4,
+      "title": "Adidas X Yu-Gi-Oh! Originals Men's  Hoodie",
+      "price": "1000",
+      "url": "./images/hoodies/1_hoodie_adidas.png",
+      "category": " Hoodies"
+    },
+    {
+      "id": 5,
+      "title": "Air Jordan Wordmark Men's Fleece Hoodie",
+      "price": "1000",
+      "url": "images/hoodies/2_jordan_hoodie.png ",
+      "category": " Hoodies"
+    },
+    {
+      "id": 6,
+      "title": "Nike Sportswear Tech Fleece Windrunner",
+      "price": "1000",
+      "url": "images/hoodies/3_Nike_hoodie.png ",
+      "category": " Hoodies"
+    },
+    {
+      "id": 7,
+      "title": "Nike Hoodie for men.",
+      "price": "1000",
+      "url": "images/hoodies/4_nike_hoodie.png ",
+      "category": " Hoodies"
+    },
+    {
+      "id": 8,
+      "title": "Nike Girls Black Hooded Sweatshirt",
+      "price": "1000",
+      "url": "images/hoodies/5_nike_hoodie.png ",
+      "category": " Hoodies"
+    },
+    {
+      "id": 9,
+      "title": "Puma hoodie",
+      "price": "1000",
+      "url": "images/hoodies/8_puma_hoodie.png ",
+      "category": " Hoodies"
+    },
+    {
+      "id": 10,
+      "title": "Fila Men Sweatshirt",
+      "price": "1000",
+      "url": "images/hoodies/10_FILA_Hoodie.png ",
+      "category": " Hoodies"
+    },
+    {
+      "id": 11,
+      "title": "Adidas X Rick and Morty",
+      "price": "₹649",
+      "url": "images/tshirt/2_tshirt_adidas.png",
+      "category": "Tshirt"
+    },
+    {
+      "id": 12,
+      "title": "",
+      "price": "1000",
+      "url": "images/tshirt/3_tshirt_adidas.png",
+      "category": "Tshirt"
+    },
+    {
+      "id": 13,
+      "title": "",
+      "price": "1000",
+      "url": "images/tshirt/5_tshirt_adidas.png",
+      "category": "Tshirt"
+    },
+    {
+      "id": 14,
+      "title": "",
+      "price": "1000",
+      "url": "images/tshirt/5_tshirt_adidas.png",
+      "category": "Tshirt"
+    },
+    {
+      "id": 15,
+      "title": "",
+      "price": "1000",
+      "url": "images/tshirt/7_Nike-tshoit.png",
+      "category": "Tshirt"
+    },
+    {
+      "id": 16,
+      "title": "Jhumka Earrings",
+      "price": "1000",
+      "url": "images/jewels/j1.png",
+      "category": "jewels"
+    },
+    {
+      "id": 17,
+      "title": "Indian Bangle, Gold Plated",
+      "price": "1000",
+      "url": "images/jewels/j2.png",
+      "category": "jewels"
+    },
+    {
+      "id": 18,
+      "title": "Indian Bangle, Gold Plated",
+      "price": "1000",
+      "url": "images/jewels/jwellery1.png",
+      "category": "jewels"
+    },
+    {
+      "id": 19,
+      "title": "Indian Bangle, Gold Plated",
+      "price": "1000",
+      "url": "images/jewels/jwellery3.png",
+      "category": "jewels"
+    },
+    {
+      "id": 20,
+      "title": "Air Jordan - Red Panther",
+      "price": "500",
+      "url": "images/footwear/shoe1.png",
+      "category": "Footwear"
+    },
+    {
+      "id": 21,
+      "title": "Nike Football shoes (Green Neon)",
+      "price": "500",
+      "url": "images/footwear/product-8.png",
+      "category": "Footwear"
+    },
+    {
+      "id": 22,
+      "title": "hello",
+      "price": "500",
+      "url": "images/footwear/jordan4.png",
+      "category": "Footwear"
+    },
+    {
+      "id": 23,
+      "title": "",
+      "price": "500",
+      "url": "images/footwear/Nike2.png",
+      "category": "Footwear"
+    }
+  ]
+}

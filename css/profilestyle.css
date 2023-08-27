@@ -1,0 +1,508 @@
+/* Base */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Time New Roman", sans-serif;
+}
+
+body {
+  background: #d5acbc;
+  color: #927685;
+}
+
+html {
+  font-size: 62.5%;
+  /* = 10px = 1rem */
+}
+
+.dashboard {
+  max-width: 100%;
+  min-height: 100%;
+  background: #f0f0f0;
+  /* background: #333; */
+  /* margin: 5rem auto; */
+  display: flex;
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  cursor: pointer;
+  margin: 2.5rem 0;
+}
+
+.heading {
+  font-size: 1.8rem;
+  color: #1e1e1e;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* End Base */
+
+.menu {
+  flex: 0 0 8%;
+  /* min-height: 80rem; */
+  background: #2c2219;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.menu .icon:hover,
+.menu .logo .icon {
+  background: linear-gradient(to right bottom, #faad72, #f89456);
+  color: #2c1923;
+  border-radius: 2px;
+  transition: all 0.6s ease-out;
+}
+
+/* Menu */
+
+.content {
+  flex: 1;
+  display: flex;
+}
+
+/* Main Content */
+.main-content {
+  padding: 3rem;
+  width: 76%;
+}
+
+.head {
+  justify-content: space-between;
+}
+
+.head h1 {
+  flex: 1;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ff5151;
+}
+
+.box {
+  padding: 10px;
+  /*background: #33202c;*/
+  background: #f4bdbd;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #1e1e1e;
+  cursor: pointer;
+}
+
+.box .angle {
+  margin-left: 10px;
+}
+
+.time-period {
+  margin-right: 2rem;
+}
+
+/* Stats */
+.stats {
+  background: #d1d1d1;
+  margin-top: 4rem;
+  background-color: #5a565100;
+  padding: 2rem 1rem;
+  font-size: 1.6rem;
+  width: auto;
+  justify-content: space-between;
+}
+
+.stats-box {
+  /* min-height: 15rem; */
+  width: 40%;
+  min-width: 30px;
+  min-height: 20px;
+  padding: 2rem 1rem;
+  
+}
+
+.stats-box .heading {
+  margin-bottom: 2rem;
+  font-size: 2vw;
+  color: #1e1e1e;
+  
+}
+
+.sales {
+  flex: 0 0 60%;
+  background: #d1cecb;
+  /* background: #484543; */
+  color: #1e1e1e;
+}
+
+.earning {
+  background: #d1cecb;
+  
+  width: 38%;
+}
+
+.earning-amount {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.earning-icon {
+  font-size: 4rem;
+  color: #3f2532;
+  background: linear-gradient(to right bottom, #faad72, #f89456);
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Product Sales */
+.product-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.product-stats .stats-box {
+  background:linear-gradient(45deg,#ff5151, #f7d28a);
+}
+
+.product-sales {
+  width: 38vw;
+  /* min-width: 500px; */
+  border: 2px solid red;
+  margin: 5vw;
+}
+
+.top-selling {
+  width: 60%;
+  /* min-width: 700px; */
+}
+
+.top-selling-products {
+  text-align: left;
+  font-size: 5rem;
+  padding: 7px 0;
+}
+
+.top-selling-products th {
+  /* background: rgba(255, 255, 255, 1); */
+  font-size: 30vw;
+}
+
+.top-selling-products th,
+.top-selling-products td {
+  padding: 10px 8px;
+}
+
+.product-name {
+  justify-content: flex-start;
+}
+
+.product-name p {
+  margin-left: 10px;
+}
+
+.product-name .icon {
+  margin: 0;
+  background: #91ff8b;
+  border-radius: 50%;
+  color: red;
+  font-size: 3rem;
+}
+
+.product-name.iphone .icon {
+  background: #f89456;
+}
+
+.product-name.windows .icon {
+  background: #dc9afc;
+}
+
+/* End Product Sales */
+
+/* End Stats */
+
+/* End Main Content */
+
+/* Profile */
+.profile {
+  background: #2f1a27;
+  padding: 2rem;
+  flex: 1;
+}
+
+.title {
+  justify-content: space-between;
+}
+
+.user {
+  color: #fff;
+  text-align: center;
+  margin: 3rem 0 5rem 0;
+}
+
+.user img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.user h2 {
+  font-size: 2rem;
+  margin: 8px 0;
+}
+
+.user p {
+  color: #ccc;
+}
+
+.activities {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.activity {
+  justify-content: flex-start;
+  font-size: 14px;
+  margin: 2rem 0;
+}
+
+.activity h2 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.task {
+  margin: 0 5px;
+}
+
+.task p {
+  color: #ddd;
+}
+
+.time {
+  margin-top: 4px;
+}
+
+.activity .icon {
+  font-size: 3rem;
+  width: 40px;
+  height: 40px;
+  background: #33202c;
+  margin: 0 5px 5px 5px;
+  border-radius: 50%;
+  color: #faad72;
+}
+
+.upgrade {
+  width: 100%;
+  margin: 5rem auto 0 auto;
+  background: #33202c;
+  padding: 2rem;
+  color: #ccc;
+  text-align: center;
+  font-size: 14px;
+}
+
+.upgrade .icon {
+  font-size: 8rem;
+}
+
+.btn {
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(to right bottom, #faad72, #f89456);
+  padding: 2rem 0;
+  color: #2f1a27;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* End Profile */
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .dashboard {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1180px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .profile {
+    width: 40%;
+    margin: 3rem auto;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  .title,
+  .upgrade {
+    display: none;
+  }
+
+  .activity {
+    justify-content: center;
+  }
+
+  .btn {
+    width: 60%;
+  }
+}
+
+@media (max-width: 850px) {
+  .menu {
+    width: 100%;
+    flex-direction: row;
+    position: absolute;
+    height: 80px;
+    min-height: 80px;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation .icon {
+    margin: 0 10px;
+  }
+
+  .content {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 750px) {
+  .stats {
+    flex-direction: column;
+    background: none;
+    padding: 0;
+    width: 90vw;
+  }
+
+  .sales,
+  .earning {
+    width: 40%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background: #3f2532;
+  }
+
+  .profile {
+    width: 60%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .navigation,
+  .settings {
+    display: none;
+  }
+
+  .menu {
+    justify-content: center;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+
+  .product-stats {
+    flex-direction: column;
+  }
+
+  .product-sales,
+  .top-selling {
+    width: 90vw;
+    /* padding: 2rem 4rem; */
+    margin:2vw;
+  }
+  .top-selling-products {
+    font-size: 5vw;
+  }
+
+  .product-sales {
+    width: 90vw;
+  }
+  .top-selling{
+    font-size: 10vw;;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .product-sales,
+  .top-selling {
+    width: 90vw;
+  }
+
+  .stats{
+    width:100%;
+  }
+
+  .product-name .icon {
+    display: none;
+  }
+
+  .profile {
+    width: 85%;
+  }
+
+  .menu {
+    min-height: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+/* End  Responsive */
