@@ -54,7 +54,7 @@ const displayProductItems = (items) => {
                 <div class="bottom">
                   <h4>${product.title}</h4>
                   <div class="d-flex">
-                    <div class="price">$${product.price}</div>
+                    <div class="price">&#8377;${product.price}</div>
                     <div class="rating">
                       <i class="bx bxs-star"></i>
                       <i class="bx bxs-star"></i>
