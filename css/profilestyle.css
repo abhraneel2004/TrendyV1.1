@@ -9,6 +9,9 @@
   font-family: "Time New Roman", sans-serif;
 }
 
+*{
+  border-radius: 20px;
+}
 body {
   background: #d5acbc;
   color: #927685;
@@ -274,7 +277,7 @@ html {
 
 /* Profile */
 .profile {
-  background: linear-gradient(to right bottom, #faad72, #ff5151);
+  background: linear-gradient(to right bottom, #ffecdd, #eb8888);
   padding: 2rem;
   flex: 1;
 }
@@ -361,7 +364,7 @@ html {
 .btn {
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(to right bottom, #faad72, #f89456);
+  background: linear-gradient(to right bottom, #ff7207, #f73c17);
   padding: 2rem 0;
   color: #2f1a27;
   font-size: 2rem;
