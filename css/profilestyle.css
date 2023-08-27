@@ -85,7 +85,7 @@ html {
 .menu {
   flex: 0 0 8%;
   /* min-height: 80rem; */
-  background: #2c2219;
+  background: #ff5151;
   justify-content: space-between;
   padding: 2rem;
 }
@@ -119,7 +119,7 @@ html {
   flex: 1;
   font-size: 2.2rem;
   font-weight: 600;
-  color: #fff;
+  color: #1e1e1e;
 }
 
 .box {
@@ -138,6 +138,17 @@ html {
 
 .time-period {
   margin-right: 2rem;
+}
+
+.backto {
+  background: none;
+  border: none;
+  transition: 0.5s ease-in;
+}
+
+.backto:hover {
+  background: linear-gradient(to right bottom, #faad72, #f89456);
+  transition: 0.5s ease-in;
 }
 
 /* Stats */
@@ -263,7 +274,7 @@ html {
 
 /* Profile */
 .profile {
-  background: #2f1a27;
+  background: linear-gradient(to right bottom, #faad72, #ff5151);
   padding: 2rem;
   flex: 1;
 }
