@@ -4,7 +4,7 @@
 
 ![trend2](https://github.com/abhraneel2004/TrendyV1.1/assets/129538165/8e9ed865-61f9-47dd-b9ff-7e2276ee4970)
 
-Website Deployment: https://abhraneel2004.github.io/TrendyV1.1/
+Visit us @ <a href="https://abhraneel2004.github.io/TrendyV1.1/" target="_blank">Trends.com!</a>
 
 # Trendy
 # One stop for youth fashion
@@ -49,4 +49,20 @@ Trendy is an online shopping website that offers a variety of products, along wi
 - Product analysis
 - Implementation of AI for enhancing user experience.
 
+### ⚙️Built with⚙️
+- HTML5 - Basic structure.
+- CSS - Styling.
+- SCSS - Styling.
+- JS - For the backend.
+- Firebase - For the login and sign up.
+
+## Contributing
+
+
+This website is a work in progress. So any suggestions or updates will be well appreciated.To contribute to this project
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Feature1`)
+3. Commit your Changes (`git commit -m 'Write what feature you added'`)
+4. Push to the Branch (`git push origin feature/Feature1`)
+5. Open a Pull Request
 
