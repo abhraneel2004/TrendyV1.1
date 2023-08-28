@@ -871,6 +871,11 @@ img {
   height: 40%;
 }
 
+.tr2{
+  width: 7vw;
+  height: 2.66666666667vw;
+}
+
 .footer .row .col:first-child p {
   margin-bottom: 2rem;
   color: #4f5665;

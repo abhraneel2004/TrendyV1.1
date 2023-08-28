@@ -146,5 +146,5 @@ filters.forEach((filter) => {
 //   currentIndex += maxResult;
 // }
 
-loadmore.addEventListener('click', loadData);
+// loadmore.addEventListener('click', loadData);
 console.log("");

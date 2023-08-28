@@ -14,6 +14,11 @@
   <!-- ====== Custom CSS ====== -->
   <link rel="stylesheet" href="css/styles.css" />
   <title>Trendy</title>
+  <style>
+    #home-nav{
+      color: #ff5e3a;
+    }
+  </style>
 </head>
 
 <body onload="onload()">
@@ -28,9 +33,9 @@
         </div>
 
         <div class="nav-list d-flex">
-          <a href="index.html">Home</a>
-          <a href="shop.html">Shop</a>
-          <a href="about.html">About Us</a>
+          <a href="index.html" id = "home-nav">Home</a>
+          <a href="shop.html" id = "shop-nav">Shop</a>
+          <a href="about.html"  id = "about-nav">About Us</a>
           <a href="profile.html" id="prof">Profile</a>
           <div class="close">
             <i class="bx bx-x"></i>
@@ -146,7 +151,7 @@
       </div>
     </section-->
   <!-- ====== Blogs ====== -->
-  <section class="section blog">
+  <section class="section blog" id="blog">
     <div class="title">
       <span>WHAT'S TRENDY</span>
       <h2>Latest News</h2>
@@ -168,7 +173,7 @@
       </div>
       <div class="col">
         <div class="top">
-          <img src="./images/shoe_news.png" alt="" loading="lazy"/>
+          <img src="./images/shoe_news.png" alt="" loading="lazy" />
         </div>
         <div class="bottom">
           <h3>Clarks and Eastpak announce collaboration
@@ -182,7 +187,7 @@
       </div>
       <div class="col">
         <div class="top">
-          <img src="./images/third_news.png" alt="" loading="lazy"/>
+          <img src="./images/third_news.png" alt="" loading="lazy" />
         </div>
         <div class="bottom">
           <h3>"Resistance Is in Our Blood”: 5 Ukrainian Designers Reflect on Their New Reality</h3>
@@ -244,7 +249,7 @@
     <div class="row container">
       <div class="col">
         <div class="logo d-flex">
-          <!--img src="./images/logo.svg" alt="logo" /-->
+          <img src="./images/trend2.png" class = "tr2" alt="logo" />
         </div>
         <p>
           This is a sample project for Hackathon <br />
@@ -265,28 +270,37 @@
       <div class="col">
         <div>
           <h4>Product</h4>
-          <a href="">Download</a>
-          <a href="">Pricing</a>
-          <a href="">Locations</a>
-          <a href="">Server</a>
-          <a href="">Countries</a>
-          <a href="">Blog</a>
+
+          <a href="shop.html">Pricing</a>
+          <a href="index.html#blog">Blog</a>
+          <p>
+            Locations<br>
+            Server<br>
+            Countries<br>
+
+          </p>
         </div>
         <div>
           <h4>Category</h4>
-          <a href="">Men</a>
-          <a href="">Women</a>
-          <a href="">Kids</a>
-          <a href="">Best Seller</a>
-          <a href="">New Arrivals</a>
+          <p>
+            Jewellery<br>
+            Hoodies<br>
+            T-shirt<br>
+            Footwear<br>
+            Best Seller<br>
+            New Arrivals<br>
+          </p>
         </div>
         <div>
           <h4>My Account</h4>
-          <a href="">My Account</a>
-          <a href="">Discount</a>
-          <a href="">Returns</a>
-          <a href="">Order History</a>
-          <a href="">Order Tracking</a>
+          <p>
+            My Account<br>
+            Discount<br>
+            Returns<br>
+            Order History<br>
+            Order Tracking<br>
+          </p>
+
         </div>
         <div>
           <h4>Contact Us</h4>
@@ -314,7 +328,7 @@
     <div class="form-wrapper container">
       <div class="user login">
         <div class="img-box">
-          <img src="./images/trial.svg" alt="" loading="lazy"/>
+          <img src="./images/trial.svg" alt="" loading="lazy" />
         </div>
         <div class="form-box">
           <div class="top">
@@ -341,62 +355,62 @@
               <p>Or continue with</p>
               <div class="icons">
                 <div class="icon">
-                  <img src="./images/search.svg" alt="" loading="lazy"/>
+                  <img src="./images/search.svg" alt="" loading="lazy" />
                 </div>
-                
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <!-- Register -->
-      <div class="user signup">
-        <div class="form-box">
-          <div class="top">
-            <p>
-              Already a member?
-              <span data-id="#1a1aff">Login now</span>
-            </p>
-          </div>
-          <form action="">
-            <div class="form-control">
-              <h2>Welcome to HalfByte Trendy!</h2>
-              <p>Nice to meet you</p>
-              <input type="email" placeholder="Enter Email" id="s7" />
-              <div>
-                <input type="password" placeholder="Password" id="s8" />
-                <div class="icon form-icon">
-                  <img src="./images/eye.svg" alt="" loading="lazy"/>
-                </div>
-              </div>
-              <div>
-                <input type="password" placeholder="Confirm Password" id="s9" />
-                <div class="icon form-icon">
-                  <img src="./images/eye.svg" alt="" loading="lazy"/>
-                </div>
-              </div>
-              <!-- <input type="Submit" value="Register" id="s10" /> -->
-              <button type="button" id="register" name="register" class="btn btn-success">Register Now</button>
-            </div>
-            <div class="form-control">
-              <p>Or continue with</p>
-              <div class="icons">
-                <div class="icon">
-                  <img src="./images/search.svg" alt="" loading="lazy"/>
-                </div>
-                
 
               </div>
             </div>
-          </form>
         </div>
-        <div class="img-box">
-          <img src="./images/trial.svg" alt="" loading="lazy"/>
-        </div>
+        </form>
       </div>
     </div>
+
+    <!-- Register -->
+    <div class="user signup">
+      <div class="form-box">
+        <div class="top">
+          <p>
+            Already a member?
+            <span data-id="#1a1aff">Login now</span>
+          </p>
+        </div>
+        <form action="">
+          <div class="form-control">
+            <h2>Welcome to HalfByte Trendy!</h2>
+            <p>Nice to meet you</p>
+            <input type="email" placeholder="Enter Email" id="s7" />
+            <div>
+              <input type="password" placeholder="Password" id="s8" />
+              <div class="icon form-icon">
+                <img src="./images/eye.svg" alt="" loading="lazy" />
+              </div>
+            </div>
+            <div>
+              <input type="password" placeholder="Confirm Password" id="s9" />
+              <div class="icon form-icon">
+                <img src="./images/eye.svg" alt="" loading="lazy" />
+              </div>
+            </div>
+            <!-- <input type="Submit" value="Register" id="s10" /> -->
+            <button type="button" id="register" name="register" class="btn btn-success">Register Now</button>
+          </div>
+          <div class="form-control">
+            <p>Or continue with</p>
+            <div class="icons">
+              <div class="icon">
+                <img src="./images/search.svg" alt="" loading="lazy" />
+              </div>
+
+
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="img-box">
+        <img src="./images/trial.svg" alt="" loading="lazy" />
+      </div>
+    </div>
+  </div>
   </div>
   <!-- ====== SwiperJs ====== -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
