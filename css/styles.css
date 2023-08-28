@@ -127,7 +127,7 @@ img {
   color: var(--black-color);
 }
 
-.header .navbar .row .nav-list a.user-link {
+.header .navbar .row .nav-list p.user-link {
   display: none;
 }
 
@@ -1253,7 +1253,7 @@ img {
 }
 
 @media (max-width: 567px) {
-  .header .navbar .row .nav-list a.user-link {
+  .header .navbar .row .nav-list p.user-link {
     display: block;
   }
 
