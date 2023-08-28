@@ -209,6 +209,12 @@ img {
   }
 }
 
+#deli span{
+  filter: grayscale(1000);
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 /* ========== Hero Area =========== */
 .header .hero {
   height: 80vh;

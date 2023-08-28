@@ -305,6 +305,14 @@ img {
   /* background-size: 100%; */
 }
 
+
+
+#deli span{
+  filter: grayscale(1000);
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 /* ========== Footer =========== */
 .footer {
   background-color: rgba(252, 203, 144, 0.15);
