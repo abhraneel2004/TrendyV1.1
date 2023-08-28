@@ -66,3 +66,10 @@ This website is a work in progress. So any suggestions or updates will be well a
 4. Push to the Branch (`git push origin feature/Feature1`)
 5. Open a Pull Request
 
+## Meet our team
+- <b><a align="center" href="https://github.com/abhraneel2004">Abhraneel Karmakar.</a></b>
+- <b><a align="center" href="https://github.com/ShayWonTon">Sayantan Sen.</a></b>
+- <b><a align="center" href="https://github.com/anannya07">Anannya Guchait.</a></b>
+- <b><a align="center" href="https://github.com/Ayandi999">Ayandip Pal.</a></b>
+
+
