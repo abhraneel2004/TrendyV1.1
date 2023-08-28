@@ -6,12 +6,12 @@ const onload = (e => {
     var div2 = document.getElementById("mukh");
     if (uid == null) {
         console.log("no uid");
-        div.style.opacity = 0;
-        div2.style.opacity = 1;
+        div.style.display = "none";
+        div2.style.display = "block";
     } else {
         console.log("uid here");
         console.log(uid);
-        div.style.opacity = 1;
-        div2.style.opacity = 0;
+        div.style.display = "block";
+        div2.style.display = "none";
     }
 });
