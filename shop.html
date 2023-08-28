@@ -1184,64 +1184,64 @@
     const auth = getAuth();
     console.log(app);
   
-    // //----- New Registration code start	  
-    // document.getElementById("register").addEventListener("click", function () {
-    //   var email = document.getElementById("s7").value;
-    //   var password = document.getElementById("s8").value;
-    //   // console.log("Hello world!");
-    //   localStorage.setItem("email", email);
-    //   localStorage.setItem("password", password);
+    //----- New Registration code start	  
+    document.getElementById("register").addEventListener("click", function () {
+      var email = document.getElementById("s7").value;
+      var password = document.getElementById("s8").value;
+      // console.log("Hello world!");
+      localStorage.setItem("email", email);
+      localStorage.setItem("password", password);
   
   
-    //   //For new registration
-    //   createUserWithEmailAndPassword(auth, email, password)
-    //     .then((userCredential) => {
+      //For new registration
+      createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
   
   
   
   
-    //       // Signed in 
-    //       const user = userCredential.user;
-    //       localStorage.setItem("uid", user.uid);
-    //       alert("Registration successful!!");
+          // Signed in 
+          const user = userCredential.user;
+          localStorage.setItem("uid", user.uid);
+          alert("Registration successful!!");
   
-    //       window.location.href = "index.html";
+          window.location.href = "index.html";
   
-    //       // ...
+          // ...
   
   
-    //     })
-    //     .catch((error) => {
-    //       const errorCode = error.code;
-    //       const errorMessage = error.message;
-    //       // ..
-    //       console.log(errorMessage);
-    //       alert(error);
-    //     });
-    // });
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          // ..
+          console.log(errorMessage);
+          alert(error);
+        });
+    });
   
-    // document.getElementById("login").addEventListener("click", function () {
-    //   var email = document.getElementById("log-mail").value;
-    //   console.log(email);
-    //   var password = document.getElementById("log-pwd").value;
+    document.getElementById("login").addEventListener("click", function () {
+      var email = document.getElementById("log-mail").value;
+      console.log(email);
+      var password = document.getElementById("log-pwd").value;
   
-    //   signInWithEmailAndPassword(auth, email, password)
-    //     .then((userCredential) => {
-    //       // Signed in 
-    //       localStorage.setItem("uid", userCredential.uid)
-    //       window.location.href = "index.html";
-    //       const user = userCredential.user;
-    //       console.log(user);
-    //       alert(user.email + " Login successfully!!!");
-    //       // ...
-    //     })
-    //     .catch((error) => {
-    //       const errorCode = error.code;
-    //       const errorMessage = error.message;
-    //       console.log(errorMessage);
-    //       alert(errorMessage);
-    //     });
-    // });
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed in 
+          localStorage.setItem("uid", userCredential.uid)
+          window.location.href = "index.html";
+          const user = userCredential.user;
+          console.log(user);
+          alert(user.email + " Login successfully!!!");
+          // ...
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          console.log(errorMessage);
+          alert(errorMessage);
+        });
+    });
   
   </script>
 

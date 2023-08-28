@@ -48,6 +48,10 @@ body {
   background-color: var(--white-color);
 }
 
+#prof {
+  display: none;
+}
+
 h1,
 h2,
 h3,
@@ -871,7 +875,7 @@ img {
   height: 40%;
 }
 
-.tr2{
+.tr2 {
   width: 5vw;
   height: 2.66666666667vw;
 }
