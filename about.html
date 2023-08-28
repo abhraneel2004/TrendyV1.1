@@ -12,11 +12,21 @@
     <!-- ====== Swiper CSS ====== -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- ====== Custom CSS ====== -->
-    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>About us</title>
+    <!-- =========== META TAGS FOR SEO ===================== -->
+    <meta name="keywords"
+        content="online shopping, shop online, shop, youth fashion, trendy, trending fashion, lastest fashion">
+    <meta name="description" content="Elevate your style game today with Trendy. Discover the perfect blend of trendiness and self-expression at
+    trendy and embark on a journey where fashion meets your personal vibe.">
+    <style>
+        #about-nav {
+            color: #ff5e3a;
+        }
+    </style>
 </head>
 
-<body>
+<body onload="onload()">
     <!-- ====== Header ====== -->
     <header class="header">
         <!-- ====== Navigation ====== -->
@@ -27,24 +37,22 @@
                 </div>
 
                 <div class="nav-list d-flex">
-                    <a href="index.html">Home</a>
-                    <a href="shop.html">Shop</a>
-                    <a href="">About Us</a>
+                    <a href="index.html" id="home-nav">Home</a>
+                    <a href="shop.html" id="shop-nav">Shop</a>
+                    <a href="about.html" id="about-nav">About Us</a>
+                    <a href="profile.html" id="prof">Profile</a>
                     <div class="close">
                         <i class="bx bx-x"></i>
                     </div>
-                    <a class="user-link">Login</a>
+                    <p class="user-link">Login</p>
                 </div>
 
                 <div class="icons d-flex">
-                    <div class="icon d-flex"><i class="bx bx-search"></i></div>
+
                     <div class="icon user-icon d-flex">
-                        <i class="bx bx-user"></i>
+                        <i class="bx bx-user" id="mukh"></i>
                     </div>
-                    <div class="icon d-flex">
-                        <i class="bx bx-bell"></i>
-                        <span></span>
-                    </div>
+
                 </div>
 
                 <!-- Hamburger -->
@@ -54,7 +62,9 @@
             </div>
         </nav>
 
+
     </header>
+
     <section class="aboutcont">
         <section class="desc">
 
@@ -72,26 +82,26 @@
 
         <section class="models">
             <div class="container3">
-                <div class="models" id = "m1">
+                <div class="models" id="m1">
                     <img src="images/model1.png" alt="">
                 </div>
             </div>
             <div class="container3">
-                <div class="models" id = "m2">
+                <div class="models" id="m2">
                     <img src="images/model2.png" alt="">
                 </div>
             </div>
             <div class="container3">
-                <div class="models" id = "m3">
+                <div class="models" id="m3">
                     <img src="images/model3.png" alt="">
                 </div>
             </div>
             <div class="container3">
-                <div class="models" id = "m4">
+                <div class="models" id="m4">
                     <img src="images/model4.png" alt="">
                 </div>
             </div>
-            
+
         </section>
 
         <section class="team">
@@ -99,7 +109,7 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m1">
+                <div class="team-mem" id="m1">
                     Abhraneel
                 </div>
             </div>
@@ -107,7 +117,7 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m2">
+                <div class="team-mem" id="m2">
                     Sayantan
                 </div>
             </div>
@@ -115,7 +125,7 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m3">
+                <div class="team-mem" id="m3">
                     Anannya
                 </div>
             </div>
@@ -123,28 +133,29 @@
                 <div class="photo">
                     <img src="images/avatar.png" alt="">
                 </div>
-                <div class="team-mem" id = "m4">
+                <div class="team-mem" id="m4">
                     Ayandip
                 </div>
             </div>
-            
+
         </section>
-        
+
     </section>
 
 
 
 
     <!-- ====== Footer ====== -->
+    <!-- ====== Footer ====== -->
     <footer class="footer">
         <div class="row container">
             <div class="col">
                 <div class="logo d-flex">
-                    <!--img src="./images/logo.svg" alt="logo" /-->
+                    <img src="./images/trend2.png" class="tr2" alt="logo" />
                 </div>
                 <p>
-                    Lorem ispum is a placeholder text <br />
-                    commonly used as a free text.
+                    This is a sample project for Hackathon <br />
+                    No copyright strikes intended.
                 </p>
                 <div class="icons d-flex">
                     <div class="icon d-flex">
@@ -161,28 +172,37 @@
             <div class="col">
                 <div>
                     <h4>Product</h4>
-                    <a href="">Download</a>
-                    <a href="">Pricing</a>
-                    <a href="">Locations</a>
-                    <a href="">Server</a>
-                    <a href="">Countries</a>
-                    <a href="">Blog</a>
+
+                    <a href="shop.html">Pricing</a>
+                    <a href="index.html#blog">Blog</a>
+                    <p>
+                        Locations<br>
+                        Server<br>
+                        Countries<br>
+
+                    </p>
                 </div>
                 <div>
                     <h4>Category</h4>
-                    <a href="">Men</a>
-                    <a href="">Women</a>
-                    <a href="">Kids</a>
-                    <a href="">Best Seller</a>
-                    <a href="">New Arrivals</a>
+                    <p>
+                        Jewellery<br>
+                        Hoodies<br>
+                        T-shirt<br>
+                        Footwear<br>
+                        Best Seller<br>
+                        New Arrivals<br>
+                    </p>
                 </div>
                 <div>
                     <h4>My Account</h4>
-                    <a href="">My Account</a>
-                    <a href="">Discount</a>
-                    <a href="">Returns</a>
-                    <a href="">Order History</a>
-                    <a href="">Order Tracking</a>
+                    <p>
+                        My Account<br>
+                        Discount<br>
+                        Returns<br>
+                        Order History<br>
+                        Order Tracking<br>
+                    </p>
+
                 </div>
                 <div>
                     <h4>Contact Us</h4>
@@ -203,6 +223,191 @@
         </div>
     </footer>
 
+    <!-- ====== Login and Signup Form ====== -->
+    <!-- ========= Login Form ============= -->
+    <div class="user-form">
+        <div class="close-form d-flex"><i class="bx bx-x"></i></div>
+        <div class="form-wrapper container">
+            <div class="user login">
+                <div class="img-box">
+                    <img src="./images/trial.svg" alt="" />
+                </div>
+                <div class="form-box">
+                    <div class="top">
+                        <p>
+                            Not a member?
+                            <span data-id="#ff0066">Register now</span>
+                        </p>
+                    </div>
+                    <form action="">
+                        <div class="form-control">
+                            <h2>Hey There!</h2>
+                            <p>Login to becomes Trendy</p>
+                            <input type="text" placeholder="Enter email" id="log-mail" />
+                            <div>
+                                <input type="password" placeholder="Password" id="log-pwd" />
+                                <div class="icon form-icon">
+                                    <!-- <img src="./images/eye.svg" alt="" /> -->
+                                </div>
+                            </div>
+                            <span>Recovery Password</span>
+                            <button type="button" id="login" name="login" class="btn btn-success">Login</button>
+                        </div>
+                        <div class="form-control">
+                            <p>Or continue with</p>
+                            <div class="icons">
+                                <div class="icon">
+                                    <img src="./images/search.svg" alt="" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Register -->
+            <div class="user signup">
+                <div class="form-box">
+                    <div class="top">
+                        <p>
+                            Already a member?
+                            <span data-id="#1a1aff">Login now</span>
+                        </p>
+                    </div>
+                    <form action="">
+                        <div class="form-control">
+                            <h2>Welcome to HalfByte Trendy!</h2>
+                            <p>Nice to meet you</p>
+                            <input type="email" placeholder="Enter Email" id="s7" />
+                            <div>
+                                <input type="password" placeholder="Password" id="s8" />
+                                <div class="icon form-icon">
+                                    <img src="./images/eye.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <input type="password" placeholder="Confirm Password" id="s9" />
+                                <div class="icon form-icon">
+                                    <img src="./images/eye.svg" alt="" />
+                                </div>
+                            </div>
+                            <!-- <input type="Submit" value="Register" id="s10" /> -->
+                            <button type="button" id="register" name="register" class="btn btn-success">Register
+                                Now</button>
+                        </div>
+                        <div class="form-control">
+                            <p>Or continue with</p>
+                            <div class="icons">
+                                <div class="icon">
+                                    <img src="./images/search.svg" alt="" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="img-box">
+                    <img src="./images/trial.svg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ====== Login and Signup Form ====== -->
+    <!-- ========= Login Form ============= -->
+
+
 </body>
+<script src="./js/main.js"></script>
+<script src="./js/mini.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyC5t0DkSBIPyNiCqYbz7MjN4kGYVnNU_yQ",
+        authDomain: "trendy-test1.firebaseapp.com",
+        databaseURL: "https://trendy-test1-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "trendy-test1",
+        storageBucket: "trendy-test1.appspot.com",
+        messagingSenderId: "392299501459",
+        appId: "1:392299501459:web:aa8640f774a88fe8a67a66",
+        measurementId: "G-ZR570Y75EQ"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth();
+    console.log(app);
+
+    //----- New Registration code start	  
+    document.getElementById("register").addEventListener("click", function () {
+        var email = document.getElementById("s7").value;
+        var password = document.getElementById("s8").value;
+        // console.log("Hello world!");
+        localStorage.setItem("email", email);
+        localStorage.setItem("password", password);
+
+
+        //For new registration
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+
+
+
+
+                // Signed in 
+                const user = userCredential.user;
+                localStorage.setItem("uid", user.uid);
+                alert("Registration successful!!");
+
+                window.location.href = "index.html";
+
+                // ...
+
+
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // ..
+                console.log(errorMessage);
+                alert(error);
+            });
+    });
+
+    document.getElementById("login").addEventListener("click", function () {
+        var email = document.getElementById("log-mail").value;
+        console.log(email);
+        var password = document.getElementById("log-pwd").value;
+
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                // Signed in 
+                localStorage.setItem("uid", userCredential.uid)
+                window.location.href = "index.html";
+                const user = userCredential.user;
+                console.log(user);
+                alert(user.email + " Login successfully!!!");
+                // ...
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorMessage);
+                alert(errorMessage);
+            });
+    });
+
+</script>
 
 </html>

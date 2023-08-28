@@ -9,6 +9,9 @@
   font-family: "Time New Roman", sans-serif;
 }
 
+*{
+  border-radius: 20px;
+}
 body {
   background: #d5acbc;
   color: #927685;
@@ -32,7 +35,7 @@ html {
 .flex {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -54,11 +57,30 @@ html {
   margin: 2.5rem 0;
 }
 
+/* 
 .heading {
   font-size: 1.8rem;
-  color: #1e1e1e;
+  color: #fcfcfc;
   font-weight: 500;
   text-align: left;
+} */
+
+.heading {
+  color: #1e1e1e;
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.top-selling-products th {
+  font-size: 1.8vw;
+  color: #1e1e1e;
+  padding: 10px 8px;
+}
+
+.top-selling-products td {
+  padding: 10px 8px;
+  font-size: 1.4vw;
+  color: #1e1e1e;
 }
 
 /* End Base */
@@ -66,7 +88,7 @@ html {
 .menu {
   flex: 0 0 8%;
   /* min-height: 80rem; */
-  background: #2c2219;
+  background: #ff5151;
   justify-content: space-between;
   padding: 2rem;
 }
@@ -100,16 +122,16 @@ html {
   flex: 1;
   font-size: 2.2rem;
   font-weight: 600;
-  color: #ff5151;
+  color: #1e1e1e;
 }
 
 .box {
   padding: 10px;
   /*background: #33202c;*/
-  background: #f4bdbd;
+  background: #333;
   font-size: 1.8rem;
   font-weight: 500;
-  color: #1e1e1e;
+  color: #e6e3e5;
   cursor: pointer;
 }
 
@@ -121,11 +143,22 @@ html {
   margin-right: 2rem;
 }
 
+.backto {
+  background: none;
+  border: none;
+  transition: 0.5s ease-in;
+}
+
+.backto:hover {
+  background: linear-gradient(to right bottom, #faad72, #f89456);
+  transition: 0.5s ease-in;
+}
+
 /* Stats */
 .stats {
-  background: #d1d1d1;
+
   margin-top: 4rem;
-  background-color: #5a565100;
+  /* background-color: blue; */
   padding: 2rem 1rem;
   font-size: 1.6rem;
   width: auto;
@@ -134,30 +167,25 @@ html {
 
 .stats-box {
   /* min-height: 15rem; */
-  width: 40%;
-  min-width: 30px;
-  min-height: 20px;
+  width: 40vw;
+
   padding: 2rem 1rem;
-  
+
 }
 
 .stats-box .heading {
   margin-bottom: 2rem;
-  font-size: 2vw;
-  color: #1e1e1e;
-  
 }
 
 .sales {
+  background: #d1d1d1;
   flex: 0 0 60%;
-  background: #d1cecb;
-  /* background: #484543; */
-  color: #1e1e1e;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .earning {
-  background: #d1cecb;
-  
+  background: #d1d1d1;
   width: 38%;
 }
 
@@ -180,35 +208,36 @@ html {
 .product-stats {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 5rem;
 }
 
 .product-stats .stats-box {
-  background:linear-gradient(45deg,#ff5151, #f7d28a);
+  background: linear-gradient(45deg, #ff5151, #f7d28a);
 }
 
 .product-sales {
-  width: 38vw;
+  width: 20vw;
+  height: fit-content;
   /* min-width: 500px; */
-  border: 2px solid red;
-  margin: 5vw;
+  /* border: 2px solid red; */
+  /* margin: 5vw; */
 }
 
 .top-selling {
-  width: 60%;
+  width: 30vw;
+  height: fit-content;
   /* min-width: 700px; */
 }
 
 .top-selling-products {
   text-align: left;
-  font-size: 5rem;
+  font-size: 1vw;
   padding: 7px 0;
 }
 
 .top-selling-products th {
-  /* background: rgba(255, 255, 255, 1); */
-  font-size: 30vw;
+  /* background: white; */
 }
 
 .top-selling-products th,
@@ -248,7 +277,7 @@ html {
 
 /* Profile */
 .profile {
-  background: #2f1a27;
+  background: linear-gradient(to right bottom, #ffecdd, #eb8888);
   padding: 2rem;
   flex: 1;
 }
@@ -335,12 +364,16 @@ html {
 .btn {
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(to right bottom, #faad72, #f89456);
+  background: linear-gradient(to right bottom, #ff7207, #f73c17);
   padding: 2rem 0;
-  color: #2f1a27;
+  color: #fff;
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+.btn:hover{
+  background: linear-gradient(to right bottom, #f77d1f, #ff4d29);
 }
 
 /* End Profile */
@@ -352,24 +385,100 @@ html {
     max-width: 100%;
     margin: 0;
   }
+
+  .product-sales {
+    width: 50vw;
+    font-size: 20px;
+    margin-bottom: 2vh;
+  }
+
+  .top-selling {
+    width: 50vw;
+  }
+
+
+  .top-selling-products th {
+    font-size: 20px;
+  }
+
+  .top-selling-products th,
+  .top-selling-products td {
+    padding: 10px 8px;
+  }
+
 }
 
+
+/* ==================================== */
 @media (max-width: 1180px) {
   html {
     font-size: 50%;
   }
+
+  .product-sales {
+    width: 50vw;
+  }
+
+  .heading {
+    color: #1e1e1e;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+
+  .top-selling-products th {
+    font-size: 3vw;
+    color: #1e1e1e;
+    padding: 10px 8px;
+  }
+
+  .top-selling-products td {
+    padding: 10px 8px;
+    font-size: 2.3vw;
+    color: #1e1e1e;
+  }
 }
+
+
+/* ================================= */
 
 @media (max-width: 1050px) {
   html {
     font-size: 50%;
   }
+
+  .product-sales {
+    width: 50vw;
+  }
+
+  .stats-box {
+    justify-content: center;
+  }
+
+  .sales {
+    width: 40vw;
+  }
+
+  .earning {
+    width: 40vw;
+  }
+
+  .top-selling-products th {
+    font-size: 20px;
+  }
+
+  .top-selling-products th,
+  .top-selling-products td {
+    padding: 10px 8px;
+  }
 }
+
+/* ================================== */
 
 @media (max-width: 1000px) {
   .content {
     flex-direction: column;
   }
+
 
   .profile {
     width: 40%;
@@ -392,8 +501,21 @@ html {
   .btn {
     width: 60%;
   }
+
+
+  .top-selling-products th {
+    font-size: 20px;
+  }
+
+  .top-selling-products th,
+  .top-selling-products td {
+    padding: 10px 8px;
+  }
+
+
 }
 
+/* ============================ */
 @media (max-width: 850px) {
   .menu {
     width: 100%;
@@ -403,12 +525,17 @@ html {
     min-height: 80px;
   }
 
+
   .navigation {
     display: flex;
   }
 
   .navigation .icon {
     margin: 0 10px;
+  }
+
+  .product-sales {
+    width: 50vw;
   }
 
   .content {
@@ -420,16 +547,23 @@ html {
   .stats {
     flex-direction: column;
     background: none;
-    padding: 0;
-    width: 90vw;
   }
 
-  .sales,
+
   .earning {
-    width: 40%;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    background: #3f2532;
+    width: 100%;
+    margin: 20px 0;
+    background: #d1d1d1;
+  }
+
+  .sales {
+    width: 100%;
+    margin: 20px 0;
+    background: #d1d1d1;
+  }
+
+  .stats-box {
+    width: 70%;
   }
 
   .profile {
@@ -458,19 +592,13 @@ html {
 
   .product-sales,
   .top-selling {
-    width: 90vw;
-    /* padding: 2rem 4rem; */
-    margin:2vw;
-  }
-  .top-selling-products {
-    font-size: 5vw;
+    width: 95%;
+    padding: 2rem 4rem;
+    margin: 20px auto;
   }
 
   .product-sales {
-    width: 90vw;
-  }
-  .top-selling{
-    font-size: 10vw;;
+    width: 60%;
   }
 }
 
@@ -478,11 +606,7 @@ html {
 
   .product-sales,
   .top-selling {
-    width: 90vw;
-  }
-
-  .stats{
-    width:100%;
+    width: 100%;
   }
 
   .product-name .icon {

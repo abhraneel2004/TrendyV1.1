@@ -9,6 +9,13 @@
       "link":"jacket1.html"
     },
     {
+      "id": 2,
+      "title": "Tinker Ballet Flats - Nude",
+      "price": "799 ",
+      "url": "./images/footwear/w_shoe_3.png",
+      "category": "Footwear"
+    },
+    {
       "id": 3,
       "title": "One Piece cool boys T-shirt(100% cotton)",
       "price": "1000",

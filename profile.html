@@ -1,214 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trendy Dashboard</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/profilestyle.css" />
-  </head>
-  <body>
-    <!-- Dashboard -->
-    <div class="dashboard">
-      <!-- Menu -->
-      <div class="menu flex-c">
-        <!--div class="logo">
-          <div class="icon">
-            <ion-icon name="logo-bitbucket"></ion-icon>
-          </div>
-        </div-->
-        <div class="navigation">
-          <div class="icon">
-            <ion-icon name="filter-circle-outline"></ion-icon>
-          </div>
-          <div class="icon">
-            <ion-icon name="file-tray-full-outline"></ion-icon>
-          </div>
-          <div class="icon">
-            <ion-icon name="mail-unread-outline"></ion-icon>
-          </div>
-          <div class="icon">
-            <ion-icon name="pulse-outline"></ion-icon>
-          </div>
-          <div class="icon">
-            <ion-icon name="storefront-outline"></ion-icon>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/profilestyle.css" />
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
+  <!-- ====== Boxicons ====== -->
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
+</head>
+
+<body>
+  <!-- Dashboard -->
+  <class class="dashboard">
+    <!-- Menu -->
+
+    <!-- End Menu -->
+
+    <div class="content">
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Head -->
+        <div class="head flex">
+          <h1>Your Stats</h1>
+
         </div>
-        <div class="settings">
-          <div class="icon">
-            <ion-icon name="settings-outline"></ion-icon>
+        <!-- End Head -->
+
+        <!-- Stats -->
+        <div class="stats flex">
+          <div class="stats-box sales">
+            <h2 class="heading">Graph</h2>
+            <canvas id="sales"></canvas>
           </div>
-        </div>
-      </div>
-      <!-- End Menu -->
 
-      <div class="content">
-        <!-- Main Content -->
-        <div class="main-content">
-          <!-- Head -->
-          <div class="head flex">
-            <h1>Your Stats</h1>
-
-            <div class="box flex time-period">
-              Monthly
-              <ion-icon class="angle" name="caret-down-outline"></ion-icon>
-            </div>
-            <div class="box flex">
-              <ion-icon name="search-outline"></ion-icon>
-            </div>
-          </div>
-          <!-- End Head -->
-
-          <!-- Stats -->
-          <div class="stats flex">
-            <div class="stats-box sales">
-              <h2 class="heading">Graph</h2>
-              <canvas id="sales"></canvas>
-            </div>
-
-            <div class="stats-box earning">
-              <h2 class="heading">Purchase</h2>
-              <div class="earning-amount flex-c">
-                <div class="earning-icon flex">
-                  <ion-icon name="logo-paypal"></ion-icon>
-                </div>
-                <p>$10000</p>
+          <div class="stats-box earning">
+            <h2 class="heading">Purchase</h2>
+            <div class="earning-amount flex-c">
+              <div class="earning-icon flex">
+                <ion-icon name="logo-paypal"></ion-icon>
               </div>
-              <canvas id="earning"></canvas>
-            </div>
-          </div>
-
-          <!-- Product Stats -->
-          <div class="product-stats flex">
-            <div class="product-sales stats-box">
-              <h2 class="heading">Purchase History</h2>
-              <canvas id="products"></canvas>
-            </div>
-
-            <div class="top-selling stats-box">
-              <h2 class="heading">Top Buying Category</h2>
-              <table class="top-selling-products">
-                <tr>
-                  <th>Type</th>
-                  <th>Product</th>
-                  <th>Price</th>
-                  <!--th>Sold</th-->
-                </tr>
-
-                <tr>
-                  <td>Dresses</td>
-                  <td>
-                    <div class="product-name flex">
-                      <div class="icon">
-                        
-                      </div>
-                      <p>Adidas Yellow Jacket</p>
-                    </div>
-                  </td>
-                  <td>$1000</td>
-                  
-                </tr>
-
-                <tr>
-                  <td>Dresses</td>
-                  <td>
-                    <div class="product-name iphone flex">
-                      <div class="icon">
-                        
-                      </div>
-                      <p>Red Dress</p>
-                    </div>
-                  </td>
-                  <td>$1000</td>
-                  
-                </tr>
-
-                <tr>
-                  <td>Jewellery</td>
-                  <td>
-                    <div class="product-name windows flex">
-                      <div class="icon">
-                        
-                      </div>
-                      <p>Diamond Ring</p>
-                    </div>
-                  </td>
-                  <td>$1000</td>
-                  
-                </tr>
-              </table>
-            </div>
-          </div>
-          <!-- Product Stats -->
-
-          <!-- End Stats -->
-        </div>
-        <!-- End Main Content -->
-
-        <!-- Profile  -->
-        <div class="profile">
-          <div class="title flex">
-            <h2 class="heading">Profile</h2>
-            <div class="icon">
-              <ion-icon name="notifications-outline"></ion-icon>
-            </div>
-          </div>
-
-          <div class="user">
-            <img src="images/avatar.png" alt="" />
-            <h2>User 1</h2>
-            <p>Email: user1@gmail.com</p>
-          </div>
-
-          <div class="activities">
-            <div class="title flex">
-              <h2 class="heading">Activity</h2>
-              <p>View All ></p>
-            </div>
-          </div>
-
-          <div class="activity flex">
-            <div class="icon">
-              <ion-icon name="wallet-outline"></ion-icon>
-            </div>
-            <div class="task">
-              <h2>Total Purchase</h2>
               <p>$10000</p>
             </div>
-            <!--div class="time">11:30 AM</div-->
+            <canvas id="earning"></canvas>
+          </div>
+        </div>
+
+        <!-- Product Stats -->
+        <div class="product-stats flex">
+          <div class="product-sales stats-box">
+            <h2 class="heading">Purchase History</h2>
+            <canvas id="products"></canvas>
           </div>
 
-          <div class="activity flex">
-            <div class="icon">
-              <ion-icon name="wallet-outline"></ion-icon>
-            </div>
-            <div class="task">
-              <h2>Discount:</h2>
-              <p>$100</p>
-            </div>
-            <!--div class="time">12:20 AM</div-->
+          <div class="top-selling stats-box">
+            <h2 class="heading">Top Buying Category</h2>
+            <table class="top-selling-products">
+              <tr>
+                <th>Type</th>
+                <th>Product</th>
+                <th>Price</th>
+                <!--th>Sold</th-->
+              </tr>
+
+              <tr>
+                <td>Dresses</td>
+                <td>
+                  <div class="product-name flex">
+                    <div class="icon">
+
+                    </div>
+                    <p>Adidas Yellow Jacket</p>
+                  </div>
+                </td>
+                <td>$1000</td>
+
+              </tr>
+
+              <tr>
+                <td>Dresses</td>
+                <td>
+                  <div class="product-name iphone flex">
+                    <div class="icon">
+
+                    </div>
+                    <p>Red Dress</p>
+                  </div>
+                </td>
+                <td>$1000</td>
+
+              </tr>
+
+              <tr>
+                <td>Jewellery</td>
+                <td>
+                  <div class="product-name windows flex">
+                    <div class="icon">
+
+                    </div>
+                    <p>Diamond Ring</p>
+                  </div>
+                </td>
+                <td>$1000</td>
+
+              </tr>
+            </table>
           </div>
-          <div class="btn flex">Delete Account</div>
+        </div>
+        <!-- Product Stats -->
+
+        <!-- End Stats -->
+      </div>
+      <!-- End Main Content -->
+
+      <!-- Profile  -->
+      <div class="profile">
+        <div class="title flex">
+          <h2 class="heading">Profile</h2>
+          <a href="index.html"><button class="backto">
+              <img src="./images/return.png" alt="">
+            </button></a>
+        </div>
+
+        <div class="user">
+          <img src="images/avatar.png" alt="" />
+          <h2>User 1</h2>
+          <p>Email: user1@gmail.com</p>
+        </div>
+
+        <div class="activities">
+          <div class="title flex">
+            <h2 class="heading">Activity</h2>
+            <p>View All ></p>
+          </div>
+        </div>
+
+        <div class="activity flex">
+          <div class="icon">
+            <ion-icon name="wallet-outline"></ion-icon>
+          </div>
+          <div class="task">
+            <h2>Total Purchase</h2>
+            <p>$10000</p>
+          </div>
+          <!--div class="time">11:30 AM</div-->
+        </div>
+
+        <div class="activity flex">
+          <div class="icon">
+            <ion-icon name="wallet-outline"></ion-icon>
+          </div>
+          <div class="task">
+            <h2>Discount:</h2>
+            <p>$100</p>
+          </div>
+          <!--div class="time">12:20 AM</div-->
+        </div>
+        <div class="btn flex" id="log-out">Delete Account</div>
         <!--/div-->
         <!-- End Profile  -->
       </div>
     </div>
-    <!-- End Dashboard -->
-    <!-- Ion Icons Js -->
-    <script
-      type="module"
-      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
-    ></script>
+  </class>
+  <!-- End Dashboard -->
+  <!-- Ion Icons Js -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
 
-    <!-- Chart JS -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Chart JS -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <!-- JS -->
-    <script src="js/proscript.js"></script>
-  </body>
+  <!-- JS -->
+  <script src="js/proscript.js"></script>
+
+</body>
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC5t0DkSBIPyNiCqYbz7MjN4kGYVnNU_yQ",
+    authDomain: "trendy-test1.firebaseapp.com",
+    databaseURL: "https://trendy-test1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "trendy-test1",
+    storageBucket: "trendy-test1.appspot.com",
+    messagingSenderId: "392299501459",
+    appId: "1:392299501459:web:aa8640f774a88fe8a67a66",
+    measurementId: "G-ZR570Y75EQ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const auth = getAuth();
+  console.log(app);
+
+  document.getElementById("log-out").addEventListener("click", function () {
+    signOut(auth).then(() => {
+      // Sign-out successful.
+      console.log('Sign-out successful.');
+      localStorage.clear();
+      alert('Sign-out successful.');
+      window.location.href = "index.html";
+      // document.getElementById('logout').style.display = 'none';
+    }).catch((error) => {
+      // An error happened.
+      console.log('An error happened.');
+    });
+  });
+</script>
+
 </html>

@@ -4,6 +4,8 @@
 
 ![trend2](https://github.com/abhraneel2004/TrendyV1.1/assets/129538165/8e9ed865-61f9-47dd-b9ff-7e2276ee4970)
 
+Website Deployment: https://abhraneel2004.github.io/TrendyV1.1/
+
 # Trendy
 # One stop for youth fashion
 

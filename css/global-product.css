@@ -838,12 +838,24 @@ button:hover{
 .measure .size{
   background-color: #d9d6d6;
   margin-right: 10px;
+  padding-left: 2%;
+  padding-bottom:1%;
+  padding-right: 2%;
+  border-radius: 9px;
+  box-shadow: 0 0 5px rgb(97, 96, 96);
   
+}
+select{
+  background-color:  #d9d6d6; 
 }
 .measure .quantity{
   background-color: #d7d6d7;
   margin-right: 10px;
-  
+  padding-left: 2%;
+  padding-bottom:1%;
+  padding-right: 2%;
+  border-radius: 9px;
+  box-shadow: 0 0 5px rgb(97, 96, 96);
   
 }
 button .fa{
