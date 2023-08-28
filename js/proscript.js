@@ -9,7 +9,7 @@ Chart.defaults.borderColor = "#33202c";
 new Chart(sales, {
   type: "bar",
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "June", "July"],
+    labels: ["Jan", "Fib", "Mar", "Apr", "May", "June", "July"],
     datasets: [
       {
         label: "My Revenue",
@@ -62,7 +62,7 @@ new Chart(products, {
     datasets: [
       {
         label: "You Spent",
-        data: [380, 200, 500,1000],
+        data: [380, 200, 500, 1000],
         backgroundColor: [
           "#0079ff",
           "#00dfa2",
@@ -77,3 +77,5 @@ new Chart(products, {
     responsive: true,
   },
 });
+
+

@@ -268,12 +268,13 @@ img {
   margin-top: 0;
 }
 .photo{
+  display:flex;
   width: 10vw;
   height: 10vw;
   min-width: 180px;
   min-height: 180px;
  /*padding-top: 10px;*/
-margin-left: 10%;
+
   background-size:100%;
 }
 
@@ -399,9 +400,7 @@ margin-left: 10%;
     font-size: 50px;
   
   }
-  .team-mem {
-    font-size: 50px;
-  }
+  
   .team-mem p{
     font-size:17px;
     font-weight: lighter;

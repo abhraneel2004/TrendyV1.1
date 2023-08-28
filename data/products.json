@@ -3,156 +3,185 @@
     {
       "id": 1,
       "title": "ADIDAS Premium - Yellow Jacket",
-      "price": "3000",
+      "price": "2499",
       "url": "./images/hoodies/jacket1.png",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":"jacket1.html"
+    },
+    {
+      "id": 2,
+      "title": "Tinker Ballet Flats - Nude",
+      "price": "799 ",
+      "url": "./images/footwear/w_shoe_3.png",
+      "category": "Footwear"
     },
     {
       "id": 3,
-      "title": "Title- Product Name",
+      "title": "One Piece cool boys T-shirt(100% cotton)",
       "price": "1000",
-      "url": "./images/hoodies/product-1.png",
-      "category": " Hoodies"
+      "url": "images/tshirt/T_anime1.png",
+      "category": "Tshirt",
+      "link":"T_anime1.html"
     },
     {
       "id": 4,
       "title": "Adidas X Yu-Gi-Oh! Originals Men's  Hoodie",
-      "price": "1000",
+      "price": "2499",
       "url": "./images/hoodies/1_hoodie_adidas.png",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":"1_hoodie_adidas.html"
     },
     {
       "id": 5,
       "title": "Air Jordan Wordmark Men's Fleece Hoodie",
-      "price": "1000",
+      "price": "2049",
       "url": "images/hoodies/2_jordan_hoodie.png ",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":"2_jordan_hoodie.html"
     },
     {
       "id": 6,
       "title": "Nike Sportswear Tech Fleece Windrunner",
-      "price": "1000",
+      "price": "2399",
       "url": "images/hoodies/3_Nike_hoodie.png ",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":"3_Nike_hoodie.html"
     },
     {
       "id": 7,
       "title": "Nike Hoodie for men.",
-      "price": "1000",
+      "price": "1899",
       "url": "images/hoodies/4_nike_hoodie.png ",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":"4_nike_hoodie.html"
     },
     {
       "id": 8,
       "title": "Nike Girls Black Hooded Sweatshirt",
-      "price": "1000",
+      "price": "2999",
       "url": "images/hoodies/5_nike_hoodie.png ",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":"5_nike_hoodie.html"
     },
     {
       "id": 9,
       "title": "Puma hoodie",
-      "price": "1000",
+      "price": "2599",
       "url": "images/hoodies/8_puma_hoodie.png ",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":"8_puma_hoodie.html"
     },
     {
       "id": 10,
       "title": "Fila Men Sweatshirt",
-      "price": "1000",
+      "price": "2799",
       "url": "images/hoodies/10_FILA_Hoodie.png ",
-      "category": " Hoodies"
+      "category": " Hoodies",
+      "link":""
     },
     {
       "id": 11,
       "title": "Adidas X Rick and Morty",
-      "price": "₹649",
+      "price": "649",
       "url": "images/tshirt/2_tshirt_adidas.png",
-      "category": "Tshirt"
+      "category": "Tshirt",
+      "link":""
     },
     {
       "id": 12,
-      "title": "",
-      "price": "1000",
+      "title": "Adidas Men's Regular Fit T-Shirt",
+      "price": "1049",
       "url": "images/tshirt/3_tshirt_adidas.png",
-      "category": "Tshirt"
+      "category": "Tshirt",
+      "link":""
     },
     {
       "id": 13,
-      "title": "",
-      "price": "1000",
+      "title": "Adidas Men's Regular Fit T-Shirt",
+      "price": "649",
       "url": "images/tshirt/5_tshirt_adidas.png",
-      "category": "Tshirt"
+      "category": "Tshirt",
+      "link":""
     },
     {
       "id": 14,
-      "title": "",
-      "price": "1000",
-      "url": "images/tshirt/5_tshirt_adidas.png",
-      "category": "Tshirt"
+      "title": "Blue NIKE Men's Regular Fit T-Shirt",
+      "price": "749",
+      "url": "images/tshirt/6_Nike_tshirt.png",
+      "category": "Tshirt",
+      "link":""
     },
     {
       "id": 15,
-      "title": "",
-      "price": "1000",
-      "url": "images/tshirt/7_Nike-tshoit.png",
-      "category": "Tshirt"
+      "title": "Black Nike Men's Regular Fit T-Shirt",
+      "price": "1099",
+      "url": "images/tshirt/7_Nike-tshirt.png",
+      "category": "Tshirt",
+      "link":""
     },
     {
       "id": 16,
-      "title": "Jhumka Earrings",
-      "price": "1000",
-      "url": "images/jewels/j1.png",
-      "category": "jewels"
+      "title": "916 gold classy traditional earrings",
+      "price": "2799",
+      "url": "images/jewels/jwellery8.png",
+      "category": "jewels",
+      "link":""
     },
     {
       "id": 17,
-      "title": "Indian Bangle, Gold Plated",
-      "price": "1000",
-      "url": "images/jewels/j2.png",
-      "category": "jewels"
+      "title": "Silver Plated Stainless Steel Chain Style Silver Bracelet For Men",
+      "price": "1100",
+      "url": "images/jewels/jwellery2.png",
+      "category": "jewels",
+      "link":""
     },
     {
       "id": 18,
       "title": "Indian Bangle, Gold Plated",
-      "price": "1000",
+      "price": "30099",
       "url": "images/jewels/jwellery1.png",
-      "category": "jewels"
+      "category": "jewels",
+      "link":""
     },
     {
       "id": 19,
-      "title": "Indian Bangle, Gold Plated",
+      "title": "boucheron serpent boheme bangle",
       "price": "1000",
       "url": "images/jewels/jwellery3.png",
-      "category": "jewels"
+      "category": "jewels",
+      "link":""
     },
     {
       "id": 20,
       "title": "Air Jordan - Red Panther",
-      "price": "500",
-      "url": "images/footwear/shoe1.png",
-      "category": "Footwear"
+      "price": "495",
+      "url": "images/footwear/jordan4.png",
+      "category": "Footwear",
+      "link":""
     },
     {
       "id": 21,
-      "title": "Nike Football shoes (Green Neon)",
+      "title": "Adidas Mens Struthunt M Sneaker",
       "price": "500",
-      "url": "images/footwear/product-8.png",
-      "category": "Footwear"
+      "url": "images/footwear/Adidasshoe3.png",
+      "category": "Footwear",
+      "link":""
     },
     {
       "id": 22,
-      "title": "hello",
-      "price": "500",
-      "url": "images/footwear/jordan4.png",
-      "category": "Footwear"
+      "title": "Nike Mens Air Max Impact 4 Running Shoe",
+      "price": "4699",
+      "url": "images/footwear/Air-Max5.png",
+      "category": "Footwear",
+      "link":""
     },
     {
       "id": 23,
-      "title": "",
+      "title": "Tinker Ballet Flats - Nude",
       "price": "500",
-      "url": "images/footwear/Nike2.png",
-      "category": "Footwear"
+      "url": "images/footwear/w_shoe_3.png",
+      "category": "Footwear",
+      "link":""
     }
   ]
 }

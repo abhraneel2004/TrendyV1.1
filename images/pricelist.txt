@@ -34,6 +34,5 @@ jewelery3                   3,999
 jewelery4                     299
 jewelery5                   1,125
 jewelery6                   2,709
-delete jhumka and bangle from sayantan
 jewelery8                1,20,499           
 ----------------------------------
