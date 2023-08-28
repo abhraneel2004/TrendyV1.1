@@ -793,6 +793,12 @@ img {
   }
 }
 
+.brands{
+  width: 35.822vw;
+  height: 10vw;
+
+}
+
 /* ========== Blog =========== */
 .blog .title {
   margin-bottom: 7rem;

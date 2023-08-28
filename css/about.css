@@ -250,11 +250,28 @@ img {
 
 .container3{
   text-align: center;
+  margin-right: 10vh;
+  margin-left: 10vh;
+  /* border: 2px solid black; */
+  width:fit-content;
+}
+
+.container4{
+  text-align: center;
+  margin-right: 10vh;
+  margin-left: 10vh;
+  /* border: 2px solid black; */
+  width:fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .team-mem{
   font-size: 1.4vw;
   margin-top: 5vh;
+  
 }
 .team-mem p{
   display:flex;
@@ -445,6 +462,12 @@ img {
  
 }
 .team-mem p{
-  font-size:24px;
+  font-size:20px;
   font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+  .team-mem{
+    margin: 10%;
+  }
 }

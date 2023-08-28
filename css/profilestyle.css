@@ -9,10 +9,9 @@
   font-family: "Time New Roman", sans-serif;
 }
 
-*{
-  border-radius: 20px;
-}
+
 body {
+
   background: #d5acbc;
   color: #927685;
 }
@@ -72,6 +71,7 @@ html {
 }
 
 .top-selling-products th {
+  border-radius: 20px;
   font-size: 1.8vw;
   color: #1e1e1e;
   padding: 10px 8px;
@@ -144,9 +144,11 @@ html {
 }
 
 .backto {
-  background: none;
+  color: #fff;
+  background-color: #ff5e3a;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
   border: none;
-  transition: 0.5s ease-in;
 }
 
 .backto:hover {
@@ -182,11 +184,13 @@ html {
   flex: 0 0 60%;
   margin-top: 2vh;
   margin-bottom: 2vh;
+  border-radius: 20px;
 }
 
 .earning {
   background: #d1d1d1;
   width: 38%;
+  border-radius: 20px;
 }
 
 .earning-amount {
@@ -198,6 +202,7 @@ html {
 .earning-icon {
   font-size: 4rem;
   color: #3f2532;
+  border-radius: 20px;
   background: linear-gradient(to right bottom, #faad72, #f89456);
   padding: 15px;
   border-radius: 50%;
@@ -213,7 +218,8 @@ html {
 }
 
 .product-stats .stats-box {
-  background: linear-gradient(45deg, #ff5151, #f7d28a);
+  border-radius: 20px;
+  background: #d1d1d1;
 }
 
 .product-sales {
@@ -280,6 +286,7 @@ html {
   background: linear-gradient(to right bottom, #ffecdd, #eb8888);
   padding: 2rem;
   flex: 1;
+  border-radius: 20px;
 }
 
 .title {
@@ -329,8 +336,8 @@ html {
   margin: 0 5px;
 }
 
-.task p {
-  color: #ddd;
+.task p, .task h2 , .flex-c{
+  color: #1e1e1e;
 }
 
 .time {
@@ -367,6 +374,7 @@ html {
   background: linear-gradient(to right bottom, #ff7207, #f73c17);
   padding: 2rem 0;
   color: #fff;
+  border-radius: 20px;
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
