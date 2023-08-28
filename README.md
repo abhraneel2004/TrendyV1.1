@@ -4,7 +4,7 @@
 
 ![trend2](https://github.com/abhraneel2004/TrendyV1.1/assets/129538165/8e9ed865-61f9-47dd-b9ff-7e2276ee4970)
 
-Visit us @ <a href="https://abhraneel2004.github.io/TrendyV1.1/" target="_blank">Trendy.com</a>
+Visit us @ <a target="_blank" rel="noopener noreferrer" href="https://abhraneel2004.github.io/TrendyV1.1/" >Trendy.com</a>
 
 # Trendy
 # One stop for Youth fashion
