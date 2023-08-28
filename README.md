@@ -1,4 +1,4 @@
-# InterHacktive2023 - Trendy
+# InterHacktive 2K23 - Trendy
 <br />
 <div align="center">
 
@@ -7,7 +7,7 @@
 Visit us @ <a href="https://abhraneel2004.github.io/TrendyV1.1/" target="_blank">Trendy.com</a>
 
 # Trendy
-# One stop for youth fashion
+# One stop for Youth fashion
 
 Trendy is an online shopping website that offers a variety of products, including clothing, accessories and home goods. Our mission is to provide __high-quality products__ that are both sustainable and affordable. we work with various brands to offer our customers a __wide range of options__, and we are committed to transparency in their sourcing and production practices. In addition to our online store, we also offers a magazine and blog with content related to fashion, lifestyle, and sustainability.
 
@@ -42,8 +42,17 @@ Trendy is an online shopping website that offers a variety of products, along wi
 
 ### 👾Problems we faced👾
 - As we are very new to using firebase we faced a lot of issues while creating the registration section.
--  Designing an interesting layout and selecting the colour schemes for the users took some time and a lot of research.
+- Designing an interesting layout and selecting the colour schemes for the users took some time and a lot of research.
 - Making each and every page responsive was a very long and tedious process but we did it.
+- Merge Conflicts
+- Branch Management
+- Pull Request Coordination
+- Bug Tracking
+- Version Compatibility
+- Documentation Consistency <br>
+<br>
+
+**These challenges taught us valuable lessons in communication, collaboration, version control, and GitHub workflows. Sharing our experiences to aid fellow developers in similar projects.**
 
 ### 📈Future plans📈
 - Product analysis
@@ -55,6 +64,8 @@ Trendy is an online shopping website that offers a variety of products, along wi
 - SCSS - Styling.
 - JS - For the backend.
 - Firebase - For the login and sign up.
+- Figma - For design and mockups.
+- NPM - To manage firebase.
 
 ## Contributing
 
