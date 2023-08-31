@@ -6,6 +6,7 @@
       "price": "2499",
       "url": "./images/hoodies/jacket1.png",
       "category": " Hoodies",
+      "rate": "5",
       "link": "jacket1.html"
     },
     {
@@ -13,7 +14,9 @@
       "title": "Tinker Ballet Flats - Nude",
       "price": "799 ",
       "url": "./images/footwear/w_shoe_3.png",
-      "category": "Footwear"
+      "category": "Footwear",
+      "rate": "4",
+      "link": "w_shoe_3.html"
     },
     {
       "id": 3,
@@ -21,159 +24,150 @@
       "price": "1000",
       "url": "images/tshirt/T_anime1.png",
       "category": "Tshirt",
+      "rate": "5",
       "link": "T_anime1.html"
     },
+
     {
       "id": 4,
-      "title": "Adidas X Yu-Gi-Oh! Originals Men's  Hoodie",
-      "price": "2499",
-      "url": "./images/hoodies/1_hoodie_adidas.png",
-      "category": " Hoodies",
-      "link": "1_hoodie_adidas.html"
-    },
-    {
-      "id": 5,
       "title": "Air Jordan Wordmark Men's Fleece Hoodie",
       "price": "2049",
       "url": "images/hoodies/2_jordan_hoodie.png ",
       "category": " Hoodies",
+      "rate": "4",
       "link": "2_jordan_hoodie.html"
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Nike Sportswear Tech Fleece Windrunner",
       "price": "2399",
       "url": "images/hoodies/3_Nike_hoodie.png ",
       "category": " Hoodies",
+      "rate": "5",
       "link": "3_Nike_hoodie.html"
     },
+
     {
-      "id": 7,
-      "title": "Nike Hoodie for men.",
-      "price": "1899",
-      "url": "images/hoodies/4_nike_hoodie.png ",
-      "category": " Hoodies",
-      "link": "4_nike_hoodie.html"
-    },
-    {
-      "id": 8,
+      "id": 6,
       "title": "Nike Girls Black Hooded Sweatshirt",
       "price": "2999",
       "url": "images/hoodies/5_nike_hoodie.png ",
       "category": " Hoodies",
+      "rate": "5",
       "link": "5_nike_hoodie.html"
     },
+
     {
-      "id": 9,
-      "title": "Puma hoodie",
-      "price": "2599",
-      "url": "images/hoodies/8_puma_hoodie.png ",
-      "category": " Hoodies",
-      "link": "8_puma_hoodie.html"
-    },
-    {
-      "id": 10,
-      "title": "Fila Men Sweatshirt",
-      "price": "2799",
-      "url": "images/hoodies/10_FILA_Hoodie.png ",
-      "category": " Hoodies",
-      "link": ""
-    },
-    {
-      "id": 11,
+      "id": 7,
       "title": "Adidas X Rick and Morty",
       "price": "649",
       "url": "images/tshirt/2_tshirt_adidas.png",
       "category": "Tshirt",
+      "rate": "5",
       "link": ""
     },
+
     {
-      "id": 12,
-      "title": "Adidas Men's Regular Fit T-Shirt",
-      "price": "1049",
-      "url": "images/tshirt/3_tshirt_adidas.png",
-      "category": "Tshirt",
-      "link": ""
-    },
-    {
-      "id": 13,
+      "id": 8,
       "title": "Adidas Men's Regular Fit T-Shirt",
       "price": "649",
       "url": "images/tshirt/5_tshirt_adidas.png",
       "category": "Tshirt",
+      "rate": "4",
       "link": ""
     },
     {
-      "id": 14,
+      "id": 9,
       "title": "Blue NIKE Men's Regular Fit T-Shirt",
       "price": "749",
       "url": "images/tshirt/6_Nike_tshirt.png",
       "category": "Tshirt",
+      "rate": "5",
       "link": ""
     },
     {
-      "id": 15,
+      "id": 10,
       "title": "Black Nike Men's Regular Fit T-Shirt",
       "price": "1099",
       "url": "images/tshirt/7_Nike-tshirt.png",
       "category": "Tshirt",
-      "link": ""
+      "rate": "4",
+      "link": "7_Nike-tshirt.html"
     },
     {
-      "id": 16,
+      "id": 11,
       "title": "916 gold classy traditional earrings",
       "price": "2799",
       "url": "images/jewels/jwellery8.png",
       "category": "jewels",
-      "link": ""
+      "rate":"4" ,
+      "link": "./jwellery8.html"
     },
     {
-      "id": 17,
-      "title": "Silver Plated Stainless Steel Chain Style Silver Bracelet For Men",
-      "price": "1100",
-      "url": "images/jewels/jwellery2.png",
+      "id": 12,
+      "title": "Combo Of 4 Rose Gold Plated CZ Designer Finger Rings",
+      "price": "299",
+      "url": "images/jewels/jwellery4.png",
       "category": "jewels",
-      "link": ""
+      "rate": "4",
+      "link": "./jwellery4.html"
     },
+
     {
-      "id": 18,
+      "id": 13,
       "title": "Indian Bangle, Gold Plated",
       "price": "30099",
       "url": "images/jewels/jwellery1.png",
       "category": "jewels",
-      "link": ""
+      "rate": "5",
+      "link": "./jwellery1.html"
     },
     {
-      "id": 19,
+      "id": 14,
       "title": "boucheron serpent boheme bangle",
       "price": "1000",
       "url": "images/jewels/jwellery3.png",
       "category": "jewels",
-      "link": ""
+      "rate": "5" ,
+      "link": "./jwellery3.html"
     },
     {
-      "id": 20,
+      "id": 15,
       "title": "Air Jordan - Red Panther",
       "price": "495",
       "url": "images/footwear/jordan4.png",
       "category": "Footwear",
-      "link": ""
+      "rate": "4",
+      "link": "./jordan4.html"
     },
     {
-      "id": 21,
+      "id": 16,
       "title": "Adidas Mens Struthunt M Sneaker",
       "price": "500",
       "url": "images/footwear/Adidasshoe3.png",
       "category": "Footwear",
-      "link": ""
+      "rate": "4",
+      "link": "./Adidasshoe3.html"
     },
     {
-      "id": 22,
+      "id": 17,
       "title": "Nike Mens Air Max Impact 4 Running Shoe",
       "price": "4699",
       "url": "images/footwear/Air-Max5.png",
       "category": "Footwear",
-      "link": ""
+      "rate": "3",
+      "link": "./Air-Max5.html"
+    },
+
+    {
+      "id": 18,
+      "title": "Nike unisex hoodie",
+      "price": "2199",
+      "url": "images/hoodies/6_nike_hoodie.png ",
+      "category": " Hoodies",
+      "rate": "5",
+      "link": "6_nike_hoodie.html"
     }
+
   ]
 }

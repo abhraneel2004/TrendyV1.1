@@ -56,11 +56,8 @@ const displayProductItems = (items) => {
                   <div class="d-flex">
                     <div class="price">&#8377;${product.price}</div>
                     <div class="rating">
-                      <i class="bx bxs-star"></i>
-                      <i class="bx bxs-star"></i>
-                      <i class="bx bxs-star"></i>
-                      <i class="bx bxs-star"></i>
-                      <i class="bx bxs-star"></i>
+                      <span>${product.rate}.0<i class="bx bxs-star"></i></span>
+                      
                     </div>
                   </div>
                 </div>
