@@ -14,7 +14,7 @@ Trendy is an online shopping website that offers a variety of products, includin
 Trendy is an online shopping website that offers a variety of products, along with proper **analytics of website usage**, products purchased, and more. Additionally, it provides a personalized UI for different users.
 <br/>
 ### To Get started
-  <b><a align="center" href="https://www.youtube.com/watch?v=AWZpPUwqZ2s">Watch Demo Video</a></b>
+  <b><a align="center" href="https://youtu.be/QvRGkbsZQqw">Watch Demo Video</a></b>
   <br/>
   ## 😎😎About the project.😎😎
 </div>
@@ -67,6 +67,7 @@ Trendy is an online shopping website that offers a variety of products, along wi
 - Figma - For design and mockups.
 - NPM - To manage firebase.
 
+
 ## Contributing
 
 
@@ -76,6 +77,12 @@ This website is a work in progress. So any suggestions or updates will be well a
 3. Commit your Changes (`git commit -m 'Write what feature you added'`)
 4. Push to the Branch (`git push origin feature/Feature1`)
 5. Open a Pull Request
+
+
+## More Description on Notion
+
+- <b><a align="center" href="https://www.notion.so/Trendy-5caa62e2c4aa42a1adfb108ed365b001?pvs=4">Click here to know about **Trendy**</a></b>
+
 
 ## Meet our team
 - <b><a align="center" href="https://github.com/abhraneel2004">Abhraneel Karmakar.</a></b>
