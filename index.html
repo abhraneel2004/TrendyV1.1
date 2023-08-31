@@ -426,6 +426,8 @@
   const analytics = getAnalytics(app);
   const auth = getAuth();
   console.log(app);
+  const provider = new GoogleAuthProvider(app);
+  console.log(provider);
 
   //----- New Registration code start	  
   document.getElementById("register").addEventListener("click", function () {
