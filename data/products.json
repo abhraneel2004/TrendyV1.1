@@ -6,7 +6,7 @@
       "price": "2499",
       "url": "./images/hoodies/jacket1.png",
       "category": " Hoodies",
-      "link":"jacket1.html"
+      "link": "jacket1.html"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "price": "1000",
       "url": "images/tshirt/T_anime1.png",
       "category": "Tshirt",
-      "link":"T_anime1.html"
+      "link": "T_anime1.html"
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "price": "2499",
       "url": "./images/hoodies/1_hoodie_adidas.png",
       "category": " Hoodies",
-      "link":"1_hoodie_adidas.html"
+      "link": "1_hoodie_adidas.html"
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "price": "2049",
       "url": "images/hoodies/2_jordan_hoodie.png ",
       "category": " Hoodies",
-      "link":"2_jordan_hoodie.html"
+      "link": "2_jordan_hoodie.html"
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "price": "2399",
       "url": "images/hoodies/3_Nike_hoodie.png ",
       "category": " Hoodies",
-      "link":"3_Nike_hoodie.html"
+      "link": "3_Nike_hoodie.html"
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "price": "1899",
       "url": "images/hoodies/4_nike_hoodie.png ",
       "category": " Hoodies",
-      "link":"4_nike_hoodie.html"
+      "link": "4_nike_hoodie.html"
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "price": "2999",
       "url": "images/hoodies/5_nike_hoodie.png ",
       "category": " Hoodies",
-      "link":"5_nike_hoodie.html"
+      "link": "5_nike_hoodie.html"
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "price": "2599",
       "url": "images/hoodies/8_puma_hoodie.png ",
       "category": " Hoodies",
-      "link":"8_puma_hoodie.html"
+      "link": "8_puma_hoodie.html"
     },
     {
       "id": 10,
@@ -77,7 +77,7 @@
       "price": "2799",
       "url": "images/hoodies/10_FILA_Hoodie.png ",
       "category": " Hoodies",
-      "link":""
+      "link": ""
     },
     {
       "id": 11,
@@ -85,7 +85,7 @@
       "price": "649",
       "url": "images/tshirt/2_tshirt_adidas.png",
       "category": "Tshirt",
-      "link":""
+      "link": ""
     },
     {
       "id": 12,
@@ -93,7 +93,7 @@
       "price": "1049",
       "url": "images/tshirt/3_tshirt_adidas.png",
       "category": "Tshirt",
-      "link":""
+      "link": ""
     },
     {
       "id": 13,
@@ -101,7 +101,7 @@
       "price": "649",
       "url": "images/tshirt/5_tshirt_adidas.png",
       "category": "Tshirt",
-      "link":""
+      "link": ""
     },
     {
       "id": 14,
@@ -109,7 +109,7 @@
       "price": "749",
       "url": "images/tshirt/6_Nike_tshirt.png",
       "category": "Tshirt",
-      "link":""
+      "link": ""
     },
     {
       "id": 15,
@@ -117,7 +117,7 @@
       "price": "1099",
       "url": "images/tshirt/7_Nike-tshirt.png",
       "category": "Tshirt",
-      "link":""
+      "link": ""
     },
     {
       "id": 16,
@@ -125,7 +125,7 @@
       "price": "2799",
       "url": "images/jewels/jwellery8.png",
       "category": "jewels",
-      "link":""
+      "link": ""
     },
     {
       "id": 17,
@@ -133,7 +133,7 @@
       "price": "1100",
       "url": "images/jewels/jwellery2.png",
       "category": "jewels",
-      "link":""
+      "link": ""
     },
     {
       "id": 18,
@@ -141,7 +141,7 @@
       "price": "30099",
       "url": "images/jewels/jwellery1.png",
       "category": "jewels",
-      "link":""
+      "link": ""
     },
     {
       "id": 19,
@@ -149,7 +149,7 @@
       "price": "1000",
       "url": "images/jewels/jwellery3.png",
       "category": "jewels",
-      "link":""
+      "link": ""
     },
     {
       "id": 20,
@@ -157,7 +157,7 @@
       "price": "495",
       "url": "images/footwear/jordan4.png",
       "category": "Footwear",
-      "link":""
+      "link": ""
     },
     {
       "id": 21,
@@ -165,7 +165,7 @@
       "price": "500",
       "url": "images/footwear/Adidasshoe3.png",
       "category": "Footwear",
-      "link":""
+      "link": ""
     },
     {
       "id": 22,
@@ -173,15 +173,7 @@
       "price": "4699",
       "url": "images/footwear/Air-Max5.png",
       "category": "Footwear",
-      "link":""
+      "link": ""
     },
-    {
-      "id": 23,
-      "title": "Tinker Ballet Flats - Nude",
-      "price": "500",
-      "url": "images/footwear/w_shoe_3.png",
-      "category": "Footwear",
-      "link":""
-    }
   ]
 }
