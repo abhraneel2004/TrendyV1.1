@@ -43,26 +43,32 @@ window.addEventListener('DOMContentLoaded', async function () {
 const displayProductItems = (items) => {
   let displayProduct = items.map(
     (product) => `
-                <div class="swiper-slide">
-              <div class="product">
-                <div class="top d-flex">
-                  <img src=${product.url} alt="" />
-                  <div class="icon d-flex">
-                    <i class="bx bxs-heart"></i>
-                  </div>
-                </div>
-                <div class="bottom">
-                  <h4>${product.title}</h4>
-                  <div class="d-flex">
-                    <div class="price">&#8377;${product.price}</div>
-                    <div class="rating">
-                      <span>${product.rate}.0<i class="bx bxs-star"></i></span>
-                      
+                  
+                      <div class="swiper-slide">
+                      <div class="product">
+                        <div class="top d-flex">
+                          <img src=${product.url} alt="" />
+                          <div class="icon d-flex">
+                            <i class="bx bxs-heart"></i>
+                          </div>
+                        </div>
+                        <a href = "${product.link}">
+                          <div class="bottom">
+                            <h4>${product.title}</h4>
+                            <div class="d-flex">
+                              <div class="price">&#8377;${product.price}</div>
+                              
+                              <div class="rating">
+                                <span>${product.rate}.0<i class="bx bxs-star"></i></span>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
                   `
   );
 
