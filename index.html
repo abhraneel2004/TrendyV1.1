@@ -220,85 +220,85 @@
 
 
 
-    <!-- ====== Footer ====== -->
-    <footer class="footer">
-      <center>
-        <section id ="deli">
-            <span>Delvery Partner </span>
-            <span><img src="./images/srlogo.svg" alt=""></span>
-        </section>
+  <!-- ====== Footer ====== -->
+  <footer class="footer">
+    <center>
+      <section id="deli">
+        <span>Delvery Partner </span>
+        <span><img src="./images/srlogo.svg" alt=""></span>
+      </section>
 
-        <div class="brands">
-            <img src="./images/brands.png" alt="">
-        </div>
+      <div class="brands">
+        <img src="./images/brands.png" alt="">
+      </div>
     </center>
-      <div class="row container">
-        <div class="col">
-          <div class="logo d-flex">
-            <!--img src="./images/logo.svg" alt="logo" /-->
-          </div>
-          <p>This is a sample project for Hackathon
-            <br />
-            No copyright strikes intended
-
-
-          </p>
-          <div class="icons d-flex">
-            <div class="icon d-flex">
-              <i class="bx bxl-facebook"></i>
-            </div>
-            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
-            <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
-            <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
-          </div>
-          <p class="color">
-            Copyrights 2023 <br />
-          </p>
+    <div class="row container">
+      <div class="col">
+        <div class="logo d-flex">
+          <!--img src="./images/logo.svg" alt="logo" /-->
         </div>
-        <div class="col">
-          <div>
-            <h4>Product</h4>
-            <a href="">Download</a>
-            <a href="">Pricing</a>
-            <a href="">Locations</a>
-            <a href="">Server</a>
-            <a href="">Countries</a>
-            <a href="">Blog</a>
+        <p>This is a sample project for Hackathon
+          <br />
+          No copyright strikes intended
+
+
+        </p>
+        <div class="icons d-flex">
+          <div class="icon d-flex">
+            <i class="bx bxl-facebook"></i>
           </div>
-          <div>
-            <h4>Category</h4>
-            <a href="">Men</a>
-            <a href="">Women</a>
-            <a href="">Kids</a>
-            <a href="">Best Seller</a>
-            <a href="">New Arrivals</a>
+          <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+          <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+          <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
+        </div>
+        <p class="color">
+          Copyrights 2023 <br />
+        </p>
+      </div>
+      <div class="col">
+        <div>
+          <h4>Product</h4>
+          <a href="">Download</a>
+          <a href="">Pricing</a>
+          <a href="">Locations</a>
+          <a href="">Server</a>
+          <a href="">Countries</a>
+          <a href="">Blog</a>
+        </div>
+        <div>
+          <h4>Category</h4>
+          <a href="">Men</a>
+          <a href="">Women</a>
+          <a href="">Kids</a>
+          <a href="">Best Seller</a>
+          <a href="">New Arrivals</a>
+        </div>
+        <div>
+          <h4>My Account</h4>
+          <a href="">My Account</a>
+          <a href="">Discount</a>
+          <a href="">Returns</a>
+          <a href="">Order History</a>
+          <a href="">Order Tracking</a>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <div class="d-flex">
+            <div class="icon"><i class="bx bxs-map"></i></div>
+            <span>Adisaptagram</span>
           </div>
-          <div>
-            <h4>My Account</h4>
-            <a href="">My Account</a>
-            <a href="">Discount</a>
-            <a href="">Returns</a>
-            <a href="">Order History</a>
-            <a href="">Order Tracking</a>
+          <div class="d-flex">
+            <div class="icon"><i class="bx bxs-envelope"></i></div>
+            <span>halfbyte.com</span>
           </div>
-          <div>
-            <h4>Contact Us</h4>
-            <div class="d-flex">
-              <div class="icon"><i class="bx bxs-map"></i></div>
-              <span>Adisaptagram</span>
-            </div>
-            <div class="d-flex">
-              <div class="icon"><i class="bx bxs-envelope"></i></div>
-              <span>halfbyte.com</span>
-            </div>
-            <div class="d-flex">
-              <div class="icon"><i class="bx bxs-phone"></i></div>
-              <span>+1234567890</span>
-            </div>
+          <div class="d-flex">
+            <div class="icon"><i class="bx bxs-phone"></i></div>
+            <span>+1234567890</span>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
   <!-- ====== Login and Signup Form ====== -->
   <!-- ========= Login Form ============= -->
@@ -334,7 +334,7 @@
               <p>Or continue with</p>
               <div class="icons">
                 <div class="icon">
-                  <img src="./images/search.svg" alt="" />
+                  <img src="./images/search.svg" id="google" alt="" />
                 </div>
 
               </div>
@@ -376,7 +376,7 @@
               <p>Or continue with</p>
               <div class="icons">
                 <div class="icon">
-                  <img src="./images/search.svg" alt="" />
+                  <img src="./images/search.svg" id="google" alt="" />
                 </div>
 
               </div>
@@ -404,7 +404,7 @@
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
-  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
+  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -460,6 +460,41 @@
         // ..
         console.log(errorMessage);
         alert(error);
+      });
+  });
+
+  document.getElementById("google").addEventListener("click", function () {
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        // This gives you a Google Access Token. You can use it to access the Google API.
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+        const token = credential.accessToken;
+        // The signed-in user info.
+        const user = result.user;
+        var email = user.email;
+        var password = user.password;
+        var userid = user.uid;
+        localStorage.setItem('email', email);
+        localStorage.setItem('password', password);
+        localStorage.setItem('uid', userid);
+        console.log(email, password);
+
+        alert("Registration successfully!!");
+
+        window.location.href = "homepage.html";
+
+        console.log(user);
+        // ...
+      }).catch((error) => {
+        // Handle Errors here.
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorMessage);
+        // The email of the user's account used.
+        const email = error.customData.email;
+        // The AuthCredential type that was used.
+        const credential = GoogleAuthProvider.credentialFromError(error);
+        // ...
       });
   });
 
