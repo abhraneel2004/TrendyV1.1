@@ -211,7 +211,7 @@
     signOut(auth).then(() => {
       // Sign-out successful.
       console.log('Sign-out successful.');
-      localStorage.clear();
+      localStorage.removeItem("uid")
       alert('Sign-out successful.');
       window.location.href = "index.html";
       // document.getElementById('logout').style.display = 'none';
