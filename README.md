@@ -90,4 +90,9 @@ This website is a work in progress. So any suggestions or updates will be well a
 - <b><a align="center" href="https://github.com/anannya07">Anannya Guchait.</a></b>
 - <b><a align="center" href="https://github.com/Ayandi999">Ayandip Pal.</a></b>
 
-
+<center>
+<h2> Contributors </h2>
+<a href="https://github.com/abhraneel2004/TrendyV1.1/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abhraneel2004/TrendyV1.1" />
+</a>
+</center>
