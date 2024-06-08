@@ -1,6 +1,6 @@
 console.log("hello world");
 const onload = (e => {
-    console.log("hello world 2");
+    
     var uid = localStorage.getItem("uid");
     var div = document.getElementById("prof");
     var div2 = document.getElementById("mukh");
